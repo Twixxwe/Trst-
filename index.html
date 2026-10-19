@@ -1,0 +1,385 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Search and compare custom multi-league basketball BPM results." />
+  <meta name="theme-color" content="#070b12" />
+  <link rel="alternate" type="application/json" title="Basketball Custom BPM dataset" href="/api/players.json" />
+  <link rel="alternate" type="text/csv" title="Basketball Custom BPM CSV" href="/api/players.csv" />
+  <title>Zerper — Basketball BPM Explorer (Game-level)</title>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Dataset",
+    "name": "Basketball Custom BPM (game-level, regular season)",
+    "description": "Multi-league custom basketball BPM player-season results.",
+    "url": "https://basketball-bpm-gamelevel.vercel.app/",
+    "license": "https://www.proballers.com/legal-notice",
+    "distribution": [
+      { "@type": "DataDownload", "encodingFormat": "application/json", "contentUrl": "https://basketball-bpm-gamelevel.vercel.app/api/players.json" },
+      { "@type": "DataDownload", "encodingFormat": "text/csv", "contentUrl": "https://basketball-bpm-gamelevel.vercel.app/api/players.csv" },
+      { "@type": "DataDownload", "encodingFormat": "application/x-ndjson", "contentUrl": "https://basketball-bpm-gamelevel.vercel.app/api/players.ndjson" }
+    ]
+  }
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css?v=20261019-gamelevel" />
+</head>
+<body>
+  <div class="ambient ambient-one"></div>
+  <div class="ambient ambient-two"></div>
+  <main>
+    <div class="creator-credit">“Made by Zerper.!</div>
+    <header class="hero">
+      <div>
+        <div class="eyebrow"><span class="pulse"></span> MULTI-LEAGUE BPM DATASET</div>
+        <h1>Zerper<br /><span>BPM Explorer</span></h1>
+        <p class="lede">Players from leading leagues around the world in one searchable view of raw production, team context, and final BPM.</p>
+      </div>
+      <div class="formula-card" aria-label="BPM calculation summary">
+        <div class="formula-label">CALCULATION</div>
+        <div class="formula">Final BPM <span>=</span> Raw BPM <span>+</span> Team Adjustment</div>
+        <div class="formula-note" id="formulaTeamTarget">Team adjustment = season constant + (game context − team rating) / 5 · regular season only · no ×1.2</div>
+      </div>
+    </header>
+
+    <section class="summary" aria-label="Dataset summary">
+      <article><div class="stat-number" id="playerCount">—</div><div class="stat-label">Player-seasons</div></article>
+      <article><div class="stat-number" id="seasonCount">6</div><div class="stat-label">Seasons</div></article>
+      <article><div class="stat-number" id="teamCount">—</div><div class="stat-label">Teams represented</div></article>
+      <article><div class="stat-number" id="topBpm">—</div><div class="stat-label">Highest BPM (no minutes cutoff)</div></article>
+    </section>
+
+    <section class="ai-access">
+      <div class="ai-mark" aria-hidden="true">AI</div>
+      <div class="ai-copy">
+        <div class="section-kicker">USE THIS DATA ANYWHERE</div>
+        <h2>Hand it to an AI.</h2>
+        <p>Generate a paste-ready prompt that tells any capable AI where the complete dataset lives, what every field means, and how to track players correctly.</p>
+      </div>
+      <div class="ai-actions">
+        <button class="ai-primary" id="openAiKit" type="button">Create AI prompt <span>↗</span></button>
+        <button class="ai-secondary" id="copyAllRows" type="button">Copy dataset rows + 3 examples</button>
+        <a href="/api/players.csv" download="zerper-bpm-players.csv" title="Canonical CSV: new BPM 2.0-style dataset rows, without the three copy-only examples; unaffected by on-page comparison mode">Download new BPM CSV</a>
+        <a href="/api/players.json" target="_blank" rel="noopener">View all JSON</a>
+        <a href="/identity-matches.json" target="_blank" rel="noopener">Verified nbl1 ID matches</a>
+        <a href="/china-nbl-identity-matches.json" target="_blank" rel="noopener">Verified China NBL ID matches</a>
+        <a href="/kbl-identity-matches.json" target="_blank" rel="noopener">Verified KBL ID matches</a>
+        <a href="/pba-identity-matches.json" target="_blank" rel="noopener">Verified PBA ID matches</a>
+        <a href="/llms.txt" target="_blank" rel="noopener">Open AI guide</a>
+      </div>
+    </section>
+
+    <section class="explorer">
+      <div class="explorer-head">
+        <div>
+          <div class="section-kicker">PLAYER INDEX</div>
+          <h2>Find anyone</h2>
+        </div>
+        <div class="explorer-tools">
+          <label class="bpm-mode-toggle" for="bpmModeSelect">
+            <span>BPM MODE</span>
+            <select id="bpmModeSelect" disabled>
+              <option value="new">Game-level BPM 2.0-style</option>
+              <option value="legacy">Original-site BPM</option>
+              <option value="schedule">Original-site schedule-scaled BPM</option>
+            </select>
+          </label>
+          <div class="result-count"><strong id="visibleCount">0</strong> results</div>
+        </div>
+      </div>
+      <p class="bpm-mode-note" id="bpmModeNote">Game-level BPM 2.0-style is on. Regular season only (G League includes Showcase Cup). Game-level team adjustment (BPM 2.0 style). Not official Basketball-Reference BPM.</p>
+      <p class="auxiliary-data-note" id="auxiliaryDataNote" role="status" hidden></p>
+      <p class="source-quality-note">Every rating here is rebuilt from regular-season game box scores (ESPN for NBA and G League, the official EuroLeague API, Basketball-Reference for Spain, Turkey, France, Italy and Israel, SofaScore for Germany and Puerto Rico, FIBA LiveStats for the CEBL). See the <a href="/api/quality.json" target="_blank" rel="noopener">build and coverage report ↗</a>.</p>
+
+      <article class="example-player" aria-label="Example player">
+        <div>
+          <span class="example-player-label">EXAMPLE PLAYER</span>
+          <strong>Example Player</strong>
+          <span class="example-player-affiliate">Affiliate league: N/A</span>
+        </div>
+        <div class="example-player-score"><strong>0.00</strong><span>BPM</span></div>
+        <p>Ignore this player</p>
+      </article>
+
+      <article class="example-player" aria-label="Template player">
+        <div>
+          <span class="example-player-label">TEMPLATE PLAYER</span>
+          <strong>Template Player</strong>
+          <span class="example-player-affiliate">Affiliate league: N/A</span>
+        </div>
+        <div class="example-player-score"><strong>0.00</strong><span>BPM</span></div>
+        <p>Ignore this player</p>
+      </article>
+
+      <article class="example-player" aria-label="Temp player">
+        <div>
+          <span class="example-player-label">TEMP PLAYER</span>
+          <strong>Temp Player</strong>
+          <span class="example-player-affiliate">Affiliate league: N/A</span>
+        </div>
+        <div class="example-player-score"><strong>0.00</strong><span>BPM</span></div>
+        <p>Ignore this player</p>
+      </article>
+
+      <article class="example-player" aria-label="Temp player 2">
+        <div>
+          <span class="example-player-label">TEMP PLAYER 2</span>
+          <strong>Temp Player 2</strong>
+          <span class="example-player-affiliate">Affiliate league: N/A</span>
+        </div>
+        <div class="example-player-score"><strong>0.00</strong><span>BPM</span></div>
+        <p>Ignore this player</p>
+      </article>
+
+      <div class="league-tabs" id="leagueTabs" aria-label="Choose league">
+        <button type="button" data-league="all">All leagues</button>
+        <button type="button" data-league="NBA">nba</button>
+        <button type="button" data-league="NBA G League">G League</button>
+        <button type="button" data-league="College">College</button>
+        <button type="button" data-league="EuroLeague">EuroLeague</button>
+        <button type="button" data-league="EuroCup">EuroCup</button>
+        <button type="button" data-league="Basketball Champions League">Basketball Champions League</button>
+        <button type="button" data-league="Chile LNB">Chile LNB</button>
+        <button type="button" data-league="Norway BLNO">Norway BLNO</button>
+        <button type="button" data-league="Australia NBL">NBL</button>
+        <button type="button" data-league="NBL1 Central">nbl1 Central</button>
+        <button type="button" data-league="NBL1 East">nbl1 East</button>
+        <button type="button" data-league="NBL1 North">nbl1 North</button>
+        <button type="button" data-league="NBL1 South">nbl1 South</button>
+        <button type="button" data-league="NBL1 West">nbl1 West</button>
+        <button type="button" data-league="China CBA">CBA</button>
+        <button type="button" data-league="China NBL">China NBL</button>
+        <button type="button" data-league="South Korea KBL">South Korea KBL</button>
+        <button type="button" data-league="Philippines PBA">Philippines PBA</button>
+        <button type="button" data-league="Spain ACB">ACB</button>
+        <button type="button" data-league="Turkey BSL">BSL</button>
+        <button type="button" data-league="France LNB">France LNB</button>
+        <button type="button" data-league="Italy LBA">Italy LBA</button>
+        <button type="button" data-league="Israel Winner League">Israel Winner</button>
+        <button type="button" data-league="Greece GBL">Greece GBL</button>
+        <button type="button" data-league="Greece A2 / Elite League">Greece A2 / Elite League</button>
+        <button type="button" data-league="ABA League">ABA League</button>
+        <button type="button" data-league="Germany BBL">Germany BBL</button>
+        <button type="button" data-league="Puerto Rico BSN">Puerto Rico BSN</button>
+        <button type="button" data-league="Canadian Elite Basketball League">CEBL</button>
+        <button type="button" data-league="Dominican Republic LNB">Dominican LNB</button>
+        <button type="button" data-league="New Zealand NBL">NZ NBL</button>
+        <button type="button" data-league="Japan B1">Japan B1</button>
+        <button type="button" data-league="Mexico LNBP">Mexico LNBP</button>
+        <button type="button" data-league="Basketball Africa League">BAL Africa</button>
+        <button type="button" data-league="Poland PLK">Poland PLK</button>
+        <button type="button" data-league="Lithuania LKL">Lithuania LKL</button>
+        <button type="button" data-league="BNXT League">BNXT League</button>
+        <button type="button" data-league="Spain Primera FEB">Primera FEB</button>
+        <button type="button" data-league="France Élite 2 (Pro B)">France Élite 2</button>
+        <button type="button" data-league="France NM1 (Division 3)">France NM1</button>
+        <button type="button" data-league="Germany ProA">Germany ProA</button>
+        <button type="button" data-league="Italy Serie A2">Italy Serie A2</button>
+        <button type="button" data-league="Argentina Liga Nacional">Argentina LNB</button>
+        <button type="button" data-league="Brazil NBB">Brazil NBB</button>
+        <button type="button" data-league="VTB United League">VTB League</button>
+        <button type="button" data-league="British BBL / Super League Basketball">British BBL / SLB</button>
+        <button type="button" data-league="Finland Korisliiga">Finland Korisliiga</button>
+        <button type="button" data-league="Mexico CIBACOPA">Mexico CIBACOPA</button>
+        <button type="button" data-league="Indonesia IBL">Indonesia IBL</button>
+        <button type="button" data-league="Czech Republic Mattoni NBL">Czech Mattoni NBL</button>
+        <button type="button" data-league="Romania Division A">Romania Division A</button>
+        <button type="button" data-league="Venezuela SPB">Venezuela SPB</button>
+        <button type="button" data-league="Portugal Liga Profissional">Portugal Liga</button>
+        <button type="button" data-league="Luxembourg LBBL">Luxembourg LBBL</button>
+        <button type="button" data-league="Serbia KLS">Serbia KLS</button>
+        <button type="button" data-league="Latvian–Estonian Basketball League">Latvian–Estonian Basketball League</button>
+        <button type="button" data-league="Kosovo Superliga">Kosovo Superliga</button>
+        <button type="button" data-league="Cyprus Division A">Cyprus Division A</button>
+        <button type="button" data-league="Slovakia Extraliga">Slovakia Extraliga</button>
+        <button type="button" data-league="Georgia Superleague">Georgia Superleague</button>
+        <button type="button" data-league="Sweden Basketligan">Sweden Basketligan</button>
+        <button type="button" data-league="Austria Superliga">Austria Superliga</button>
+        <button type="button" data-league="Croatia Liga">Croatia Liga</button>
+        <button type="button" data-league="Bulgaria NBL">Bulgaria NBL</button>
+        <button type="button" data-league="Belarus Premier League">Belarus Premier League</button>
+        <button type="button" data-league="Uruguay Liga">Uruguay Liga</button>
+        <button type="button" data-league="Denmark Basketligaen">Denmark Basketligaen</button>
+        <button type="button" data-league="Switzerland SBL">Switzerland SBL</button>
+        <button type="button" data-league="Slovenia Liga OTP Banka">Slovenia Liga OTP Banka</button>
+        <button type="button" data-league="Qatar QBL">Qatar QBL</button>
+        <button type="button" data-league="Bosnia Division I">Bosnia Division I</button>
+      </div>
+
+      <div class="controls">
+        <label class="search-wrap">
+          <span class="sr-only">Search players</span>
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m21 21-4.35-4.35m2.35-5.65a8 8 0 1 1-16 0 8 8 0 0 1 16 0Z" /></svg>
+          <input id="search" type="search" autocomplete="off" placeholder="Search any player across all leagues…" />
+          <kbd>/</kbd>
+        </label>
+        <label class="select-wrap">
+          <span>Season</span>
+          <select id="season"><option value="all">All seasons</option></select>
+        </label>
+        <label class="select-wrap">
+          <span>Team</span>
+          <select id="team"><option value="all">All teams</option></select>
+        </label>
+        <label class="minutes-wrap">
+          <span>Min. minutes <strong id="minutesValue">0</strong></span>
+          <input id="minutes" type="range" min="0" max="2500" step="100" value="0" />
+        </label>
+        <button id="reset" class="reset" type="button">Reset</button>
+      </div>
+
+      <div class="active-filters" id="activeFilters" aria-live="polite"></div>
+      <p class="bpm-mode-note" id="nbl1Coverage" hidden></p>
+
+      <div class="table-shell">
+        <table>
+          <thead>
+            <tr>
+              <th data-sort="name">Player <span>↕</span></th>
+              <th data-sort="league">League <span>↕</span></th>
+              <th data-sort="season">Season <span>↕</span></th>
+              <th data-sort="teams">Team(s) <span>↕</span></th>
+              <th class="number" data-sort="gp">GP <span>↕</span></th>
+              <th class="number" data-sort="mp">MP <span>↕</span></th>
+              <th class="number" data-sort="raw">Raw <span>↕</span></th>
+              <th class="number" data-sort="adj">Adj. <span>↕</span></th>
+              <th class="number sorted" data-sort="bpm">Final BPM <span>↓</span></th>
+            </tr>
+          </thead>
+          <tbody id="rows"></tbody>
+        </table>
+        <div class="empty" id="empty" hidden>
+          <div class="empty-mark">0.0</div>
+          <h3>No matching players</h3>
+          <p>Try clearing a filter or using a shorter search.</p>
+        </div>
+      </div>
+
+      <div class="pagination">
+        <button id="prev" type="button">← Previous</button>
+        <div id="pageInfo">Page 1 of 1</div>
+        <button id="next" type="button">Next →</button>
+      </div>
+    </section>
+
+    <section class="team-builder" id="teamBuilder">
+      <div class="builder-head">
+        <div>
+          <div class="section-kicker">TEAM IMPACT LAB</div>
+          <h2>Build a rotation</h2>
+          <p>Choose player-seasons and enter your own minute weights. The builder stretches the rotation proportionally to the selected team-minute total.</p>
+        </div>
+        <div class="builder-settings">
+          <div class="builder-scale">
+            <label for="builderScaleSelect">LEAGUE SCALE</label>
+            <select id="builderScaleSelect" aria-label="Choose league scale">
+              <option value="original">No league offset</option>
+              <option value="test1">Test 1 · previous-model ladder</option>
+              <option value="test2">Test 2 · previous-model ladder</option>
+            </select>
+          </div>
+          <div class="builder-target" aria-label="Choose total team minutes">
+            <span>TEAM MINUTES</span>
+            <div>
+              <button type="button" class="active" data-team-minutes="240">240</button>
+              <button type="button" data-team-minutes="200">200</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="builder-search-area">
+        <label class="builder-search-wrap">
+          <span class="sr-only">Add a player to the team builder</span>
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m21 21-4.35-4.35m2.35-5.65a8 8 0 1 1-16 0 8 8 0 0 1 16 0Z" /></svg>
+          <input id="builderSearch" type="search" autocomplete="off" placeholder="Search player + optional season or league…" />
+        </label>
+        <div class="builder-suggestions" id="builderSuggestions" hidden></div>
+      </div>
+
+      <div class="builder-metrics" aria-live="polite">
+        <article><strong id="builderEntered">0.0</strong><span>Entered minutes</span></article>
+        <article><strong id="builderStretched">0.0</strong><span>Stretched minutes</span></article>
+        <article><strong id="builderPossessions">0.0</strong><span>Player possessions at 2/min</span></article>
+        <article class="impact-card"><strong id="builderImpact">0.00</strong><span>Total impact</span></article>
+        <article class="net-rating-card"><strong id="builderNetRating">0.00</strong><span>Net rating per 100 possessions</span></article>
+      </div>
+
+      <div class="builder-formula">
+        <span>Stretch factor: <strong id="builderFactor">—</strong></span>
+        <span id="builderScaleFormula">Scale off · using original Final BPM</span>
+        <span>Impact = (BPM used ÷ 100) × player possessions · Net rating = total impact ÷ (player possessions ÷ 5) × 100</span>
+      </div>
+      <p class="builder-scale-note" id="builderScaleNote" role="status" aria-live="polite">No league offset is applied. Test 1 and Test 2 were fitted to the previous BPM model, not the new BPM 2.0-style model.</p>
+
+      <div class="builder-table-shell">
+        <table class="builder-table">
+          <thead>
+            <tr>
+              <th>Player-season</th>
+              <th>League / team</th>
+              <th class="number">BPM used</th>
+              <th class="number">Entered min.</th>
+              <th class="number">Stretched min.</th>
+              <th class="number">Possessions</th>
+              <th class="number">Impact</th>
+              <th><span class="sr-only">Remove</span></th>
+            </tr>
+          </thead>
+          <tbody id="builderRows"></tbody>
+        </table>
+        <div class="builder-empty" id="builderEmpty">
+          <strong>Start with a player</strong>
+          <span>Search above, then choose the exact season you want to use. Add a season or league to find older rows, e.g. Shurna 16-17 EuroCup.</span>
+        </div>
+      </div>
+      <p class="builder-note">Entered minutes are proportional weights. Individual stretched minutes are not capped; a roster with positive entered minutes is scaled to exactly <strong id="builderTargetLabel">240</strong> total minutes. <span id="builderZeroWarning" hidden>Enter a positive minute weight to calculate the rotation.</span></p>
+    </section>
+
+    <section class="verse-card" aria-labelledby="verseHeading">
+      <div class="verse-card-header">
+        <div>
+          <div class="section-kicker">A MOMENT TO REFLECT</div>
+          <h2 id="verseHeading">Random Bible verse</h2>
+        </div>
+        <button id="anotherVerse" type="button">Another verse ↻</button>
+      </div>
+      <blockquote id="bibleVerseText" aria-live="polite">“The Lord is my shepherd; I shall not want.”</blockquote>
+      <a id="bibleVerseRef" href="https://www.biblegateway.com/passage/?search=Psalm+23%3A1&amp;version=KJV" target="_blank" rel="noopener noreferrer">Psalm 23:1 · KJV ↗</a>
+    </section>
+
+    <footer>
+      <div><span class="brand-dot"></span> BASKETBALL CUSTOM BPM · MADE BY ZERPER</div>
+      <div class="footer-meta">
+        <div class="footer-mode" id="footerBpmMode" role="status" aria-live="polite">BPM mode: New BPM 2.0-style</div>
+        <p>Regular-season game box scores for 11 leagues, 2020–21 to 2025–26; player identities linked to the original Zerper BPM Explorer (basketball-bpm-rebuilt.vercel.app). <a href="/api/index.json">Machine-readable API</a> · <a href="/llms.txt">AI guide</a> · <a href="/api/methodology.json">Methodology</a></p>
+      </div>
+    </footer>
+  </main>
+
+  <dialog id="playerDialog">
+    <button class="close" id="closeDialog" aria-label="Close player details">×</button>
+    <div id="dialogContent"></div>
+  </dialog>
+
+  <dialog id="aiDialog" class="ai-dialog">
+    <button class="close" id="closeAiDialog" aria-label="Close AI access">×</button>
+    <div class="dialog-inner">
+      <div class="section-kicker">AI HANDOFF</div>
+      <h3>Paste this into any AI</h3>
+      <p class="ai-dialog-note">The prompt automatically includes your current filters and the correct data endpoint.</p>
+      <textarea id="aiPrompt" readonly aria-label="Paste-ready AI prompt"></textarea>
+      <div class="ai-dialog-actions">
+        <button class="profile-link" id="copyAiPrompt" type="button">Copy AI prompt</button>
+        <a id="aiDataLink" href="/api/players.json" target="_blank" rel="noopener">Open referenced data ↗</a>
+      </div>
+    </div>
+  </dialog>
+
+  <script src="app.js?v=20261019-gamelevel" defer></script>
+</body>
+</html>

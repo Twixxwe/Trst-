@@ -1,0 +1,86 @@
+# Basketball Custom BPM Explorer
+
+Machine-readable multi-league custom BPM data.
+
+## Preferred endpoints
+
+- Full documented JSON dataset: https://basketball-bpm-rebuilt.vercel.app/api/players.json
+- Streaming NDJSON records: https://basketball-bpm-rebuilt.vercel.app/api/players.ndjson
+- CSV records: https://basketball-bpm-rebuilt.vercel.app/api/players.csv
+- NBA-only JSON: https://basketball-bpm-rebuilt.vercel.app/api/nba/players.json
+- EuroLeague-only JSON: https://basketball-bpm-rebuilt.vercel.app/api/euroleague/players.json
+- Australia NBL-only JSON: https://basketball-bpm-rebuilt.vercel.app/api/nbl/players.json
+- China CBA-only JSON: https://basketball-bpm-rebuilt.vercel.app/api/cba/players.json
+- China NBL-only JSON: https://basketball-bpm-rebuilt.vercel.app/api/china-nbl/players.json
+- South Korea KBL-only JSON: https://basketball-bpm-rebuilt.vercel.app/api/kbl/players.json
+- Spain ACB-only JSON: https://basketball-bpm-rebuilt.vercel.app/api/acb/players.json
+- Turkey BSL-only JSON: https://basketball-bpm-rebuilt.vercel.app/api/bsl/players.json
+- France LNB-only JSON: https://basketball-bpm-rebuilt.vercel.app/api/lnb/players.json
+- Italy LBA-only JSON: https://basketball-bpm-rebuilt.vercel.app/api/italy/players.json
+- Israel Winner League-only JSON: https://basketball-bpm-rebuilt.vercel.app/api/israel/players.json
+- Greece GBL-only JSON: https://basketball-bpm-rebuilt.vercel.app/api/greece/players.json
+- ABA League-only JSON: https://basketball-bpm-rebuilt.vercel.app/api/aba/players.json
+- Germany BBL-only JSON: https://basketball-bpm-rebuilt.vercel.app/api/germany/players.json
+- NBA G League-only JSON: https://basketball-bpm-rebuilt.vercel.app/api/gleague/players.json
+- Puerto Rico BSN-only JSON: https://basketball-bpm-rebuilt.vercel.app/api/bsn/players.json
+- Canadian Elite Basketball League-only JSON: https://basketball-bpm-rebuilt.vercel.app/api/cebl/players.json
+- Dominican Republic LNB-only JSON: https://basketball-bpm-rebuilt.vercel.app/api/dominican-lnb/players.json
+- New Zealand NBL-only JSON: https://basketball-bpm-rebuilt.vercel.app/api/nz-nbl/players.json
+- EuroCup-only JSON: https://basketball-bpm-rebuilt.vercel.app/api/eurocup/players.json
+- Japan B1-only JSON: https://basketball-bpm-rebuilt.vercel.app/api/japan-b1/players.json
+- Mexico LNBP-only JSON: https://basketball-bpm-rebuilt.vercel.app/api/mexico-lnbp/players.json
+- Basketball Africa League-only JSON: https://basketball-bpm-rebuilt.vercel.app/api/bal/players.json
+- Poland PLK-only JSON: https://basketball-bpm-rebuilt.vercel.app/api/plk/players.json
+- Lithuania LKL-only JSON: https://basketball-bpm-rebuilt.vercel.app/api/lkl/players.json
+- BNXT League-only JSON: https://basketball-bpm-rebuilt.vercel.app/api/bnxt/players.json
+- Spain Primera FEB-only JSON: https://basketball-bpm-rebuilt.vercel.app/api/primera-feb/players.json
+- France Élite 2 (Pro B)-only JSON: https://basketball-bpm-rebuilt.vercel.app/api/elite2/players.json
+- Germany ProA-only JSON: https://basketball-bpm-rebuilt.vercel.app/api/proa/players.json
+- Italy Serie A2-only JSON: https://basketball-bpm-rebuilt.vercel.app/api/serie-a2/players.json
+- Argentina Liga Nacional-only JSON: https://basketball-bpm-rebuilt.vercel.app/api/argentina-lnb/players.json
+- Brazil NBB-only JSON: https://basketball-bpm-rebuilt.vercel.app/api/brazil-nbb/players.json
+- VTB United League-only JSON: https://basketball-bpm-rebuilt.vercel.app/api/vtb/players.json
+- British BBL / Super League Basketball-only JSON: https://basketball-bpm-rebuilt.vercel.app/api/british/players.json
+- Finland Korisliiga-only JSON: https://basketball-bpm-rebuilt.vercel.app/api/finland/players.json
+- Mexico CIBACOPA-only JSON: https://basketball-bpm-rebuilt.vercel.app/api/cibacopa/players.json
+- Indonesia IBL-only JSON: https://basketball-bpm-rebuilt.vercel.app/api/indonesia-ibl/players.json
+- France NM1 (Division 3)-only JSON: https://basketball-bpm-rebuilt.vercel.app/api/france-nm1/players.json
+- Venezuela SPB-only JSON: https://basketball-bpm-rebuilt.vercel.app/api/venezuela-spb/players.json
+- Portugal Liga Profissional-only JSON: https://basketball-bpm-rebuilt.vercel.app/api/portugal-liga/players.json
+- Luxembourg LBBL-only JSON: https://basketball-bpm-rebuilt.vercel.app/api/luxembourg-lbbl/players.json
+- Serbia KLS-only JSON: https://basketball-bpm-rebuilt.vercel.app/api/serbia-kls/players.json
+- Latvian–Estonian Basketball League-only JSON: https://basketball-bpm-rebuilt.vercel.app/api/latvian-estonian/players.json
+- Kosovo Superliga-only JSON: https://basketball-bpm-rebuilt.vercel.app/api/kosovo-superliga/players.json
+- Cyprus Division A-only JSON: https://basketball-bpm-rebuilt.vercel.app/api/cyprus-division-a/players.json
+- Slovakia Extraliga-only JSON: https://basketball-bpm-rebuilt.vercel.app/api/slovakia-extraliga/players.json
+- Georgia Superleague-only JSON: https://basketball-bpm-rebuilt.vercel.app/api/georgia-superleague/players.json
+- Sweden Basketligan-only JSON: https://basketball-bpm-rebuilt.vercel.app/api/sweden-basketligan/players.json
+- Austria Superliga-only JSON: https://basketball-bpm-rebuilt.vercel.app/api/austria-superliga/players.json
+- Croatia Liga-only JSON: https://basketball-bpm-rebuilt.vercel.app/api/croatia-liga/players.json
+- Bulgaria NBL-only JSON: https://basketball-bpm-rebuilt.vercel.app/api/bulgaria-nbl/players.json
+- Belarus Premier League-only JSON: https://basketball-bpm-rebuilt.vercel.app/api/belarus-premier-league/players.json
+- Uruguay Liga-only JSON: https://basketball-bpm-rebuilt.vercel.app/api/uruguay-liga/players.json
+- Denmark Basketligaen-only JSON: https://basketball-bpm-rebuilt.vercel.app/api/denmark-basketligaen/players.json
+- Switzerland SBL-only JSON: https://basketball-bpm-rebuilt.vercel.app/api/switzerland-sbl/players.json
+- Slovenia Liga OTP Banka-only JSON: https://basketball-bpm-rebuilt.vercel.app/api/slovenia-otp/players.json
+- Qatar QBL-only JSON: https://basketball-bpm-rebuilt.vercel.app/api/qatar-qbl/players.json
+- Bosnia Division I-only JSON: https://basketball-bpm-rebuilt.vercel.app/api/bosnia-division-i/players.json
+- Basketball Champions League-only JSON: https://basketball-bpm-rebuilt.vercel.app/api/basketball-champions-league/players.json
+- Chile LNB-only JSON: https://basketball-bpm-rebuilt.vercel.app/api/chile-lnb/players.json
+- Norway BLNO-only JSON: https://basketball-bpm-rebuilt.vercel.app/api/norway-blno/players.json
+- Czech Republic Mattoni NBL-only JSON: https://basketball-bpm-rebuilt.vercel.app/api/czech-nbl/players.json
+- Romania Division A-only JSON: https://basketball-bpm-rebuilt.vercel.app/api/romania/players.json
+- College JSON (all supported NCAA conferences): https://basketball-bpm-rebuilt.vercel.app/api/college/players.json
+- Player index: https://basketball-bpm-rebuilt.vercel.app/api/player-index.json
+- Individual player history: https://basketball-bpm-rebuilt.vercel.app/api/player/{proballers_id}.json
+- JSON Schema: https://basketball-bpm-rebuilt.vercel.app/api/schema.json
+- Formula and unit conventions: https://basketball-bpm-rebuilt.vercel.app/api/methodology.json
+- Source/model quality report: https://basketball-bpm-rebuilt.vercel.app/api/quality.json
+
+## Identity rules
+
+Use player_key to track a player within a source across seasons, teams, and leagues. Official nbl1 UUIDs and Proballers or Sports Reference IDs belong to different namespaces and are not automatically linked. Use record_id to identify one calculated league/player/season result. Never join records across sources by display name alone.
+
+## Important interpretation
+
+bpm is the final custom BPM, raw is the season-level box-score component, and adj is the team adjustment. Multi-team seasons are calculated by stint and combined using minutes. Real players with no recorded minutes have null BPM. This is not official Basketball-Reference BPM 2.0; see methodology.json and quality.json before reproducing or interpreting calculations.
