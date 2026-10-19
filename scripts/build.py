@@ -34,6 +34,8 @@ SOURCE_URL = {
     'bbref': 'https://www.basketball-reference.com/international/players/{pid}.html',
     'sofascore': 'https://www.sofascore.com/player/x/{pid}',
 }
+# Summer leagues stored by calendar year: label chosen to match the original site's rows (checked on GP/MP of matched players)
+SUMMER_LABEL = {'bsn': lambda y: f'{(y - 1) % 100:02d}-{y % 100:02d}'}
 NUM = ['min', 'fgm', 'fga', 'fg3m', 'fg3a', 'ftm', 'fta', 'orb', 'drb', 'ast', 'stl', 'blk', 'tov', 'pf', 'pts']
 GL_NOTE = 'G League free-throw scoring differs from ordinary box-score arithmetic; season-level BPM is approximate.'
 
@@ -45,9 +47,11 @@ def load_games(raw):
         d = os.path.join(raw, sub)
         if not os.path.isdir(d): continue
         for fn in sorted(os.listdir(d)):
-            m = re.match(r'(.+)_(\d\d-\d\d)\.jsonl$', fn)
-            if not m or m.group(1) not in SOURCES or m.group(2) not in SEASONS: continue
+            m = re.match(r'(.+)_(\d\d-\d\d|\d{4})\.jsonl$', fn)
+            if not m or m.group(1) not in SOURCES: continue
             key, season = m.groups()
+            if len(season) == 4: season = SUMMER_LABEL[key](int(season))
+            if season not in SEASONS: continue
             league, src = SOURCES[key]
             games, seen = [], set()
             for line in open(os.path.join(d, fn)):

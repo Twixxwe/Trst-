@@ -8,7 +8,7 @@ import json, os, sys, time, urllib.request, urllib.error
 
 API = 'https://api.sofascore.com/api/v1'
 TOURN = {'bbl': (227, {'20/21': '20-21', '21/22': '21-22', '22/23': '22-23', '23/24': '23-24', '24/25': '24-25', '25/26': '25-26'}),
-         'bsn': (17374, {'2021': '21-22', '2022': '22-23', '2023': '23-24', '2024': '24-25', '2025': '25-26'})}
+         'bsn': (17374, {y: y for y in ('2020', '2021', '2022', '2023', '2024', '2025', '2026')})}  # BSN files by calendar year; build.py maps years to site labels
 _last = [0.0]
 
 def get(path):
