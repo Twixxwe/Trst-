@@ -1,0 +1,1992 @@
+{
+  "method": "Most links require the same official Chinese Basketball Association player ID in NBL and CBA profiles, matching names and a matching CBA team-season. Additional links require an exact official birth-date and independent career corroboration. Name-only candidates remain unlinked.",
+  "verified_pairs": 85,
+  "verified_china_nbl_players": 81,
+  "unresolved_name_candidates": 72,
+  "matches": [
+    {
+      "china_nbl_player_key": "cba:7306",
+      "other_player_key": "proballers:57964",
+      "china_nbl_name": "V.科伦纽克",
+      "other_name": "Vladyslav Koreniuk",
+      "confidence": "same_official_id_english_name_birthdate_and_cba_team_season",
+      "birth_date": "1994-01-08",
+      "evidence": "Official NBL and CBA profiles share player ID 7306, English name VLADYSLAV KORENIUK, and birth date 1994-01-08; the CBA 24-25 team 南京头排苏酒 matches the Proballers Nanjing Monkey Kings player-season.",
+      "evidence_urls": [
+        "https://www.cba.net.cn/nblqyzhsj/index.jhtml?competitionId=58&seasonId=2094&playerId=7306",
+        "https://www.cba.net.cn/cbaqyzhsj/index.jhtml?competitionId=54&seasonId=1758&playerId=7306",
+        "https://www.proballers.com/basketball/player/57964/vladyslav-koreniuk"
+      ]
+    },
+    {
+      "china_nbl_player_key": "cba:438558",
+      "other_player_key": "proballers:188832",
+      "china_nbl_name": "乔丹·沃克",
+      "other_name": "Jordan Walker",
+      "confidence": "official_birthdate_and_career_confirmed",
+      "birth_date": "1999-08-11",
+      "evidence": "The official NBL player record and FIBA both identify Jordan Walker as born 1999-08-11 and 180 cm tall. FIBA lists Rytas Vilnius and Promitheas Patras, both also present in this Proballers player's career. Another Jordan Walker profile has a different birth date and is not linked.",
+      "evidence_urls": [
+        "https://www.cba.net.cn/nblqyzhsj/index.jhtml?competitionId=58&seasonId=1643&playerId=438558",
+        "https://www.fiba.basketball/en/players/364349-jordan-walker",
+        "https://www.proballers.com/basketball/player/188832/jordan-walker"
+      ]
+    },
+    {
+      "china_nbl_player_key": "cba:108791",
+      "other_player_key": "proballers:47537",
+      "china_nbl_name": "于梁",
+      "other_name": "Liang Yu",
+      "confidence": "same_official_id_name_and_cba_team_season",
+      "birth_date": "1986-11-29",
+      "evidence": "Official NBL and CBA profiles share player ID 108791 and the Chinese name 于梁; the CBA 20-21 team 深圳马可波罗 matches the Proballers Shenzhen Aviators player-season.",
+      "evidence_urls": [
+        "https://www.cba.net.cn/nblqyzhsj/index.jhtml?competitionId=58&seasonId=1093&playerId=108791",
+        "https://www.cba.net.cn/cbaqyzhsj/index.jhtml?competitionId=54&seasonId=500&playerId=108791",
+        "https://www.proballers.com/basketball/player/47537/liang-yu"
+      ]
+    },
+    {
+      "china_nbl_player_key": "cba:5180",
+      "other_player_key": "proballers:68986",
+      "china_nbl_name": "于翔",
+      "other_name": "Xiang Yu",
+      "confidence": "same_official_id_name_and_cba_team_season",
+      "birth_date": "1995-10-16",
+      "evidence": "Official NBL and CBA profiles share player ID 5180 and the Chinese name 于翔; the CBA 24-25 team 四川丰谷酒业 matches the Proballers Sichuan Blue Whales player-season.",
+      "evidence_urls": [
+        "https://www.cba.net.cn/nblqyzhsj/index.jhtml?competitionId=58&seasonId=2094&playerId=5180",
+        "https://www.cba.net.cn/cbaqyzhsj/index.jhtml?competitionId=54&seasonId=1758&playerId=5180",
+        "https://www.proballers.com/basketball/player/68986/xiang-yu"
+      ]
+    },
+    {
+      "china_nbl_player_key": "cba:107506",
+      "other_player_key": "proballers:68972",
+      "china_nbl_name": "何敬佳",
+      "other_name": "Jingjia He",
+      "confidence": "same_official_id_name_and_cba_team_season",
+      "birth_date": "1994-02-01",
+      "evidence": "Official NBL and CBA profiles share player ID 107506 and the Chinese name 何敬佳; the CBA 19-20 team 南京同曦宙光 matches the Proballers Nanjing Monkey Kings player-season.",
+      "evidence_urls": [
+        "https://www.cba.net.cn/nblqyzhsj/index.jhtml?competitionId=58&seasonId=768&playerId=107506",
+        "https://www.cba.net.cn/cbaqyzhsj/index.jhtml?competitionId=54&seasonId=267&playerId=107506",
+        "https://www.proballers.com/basketball/player/68972/jingjia-he"
+      ]
+    },
+    {
+      "china_nbl_player_key": "cba:91692",
+      "other_player_key": "proballers:75749",
+      "china_nbl_name": "侯兴宇",
+      "other_name": "Hou Xingyu",
+      "confidence": "same_official_id_name_and_cba_team_season",
+      "birth_date": "1996-09-06",
+      "evidence": "Official NBL and CBA profiles share player ID 91692 and the Chinese name 侯兴宇; the CBA 20-21 team 深圳马可波罗 matches the Proballers Shenzhen Aviators player-season.",
+      "evidence_urls": [
+        "https://www.cba.net.cn/nblqyzhsj/index.jhtml?competitionId=58&seasonId=2094&playerId=91692",
+        "https://www.cba.net.cn/cbaqyzhsj/index.jhtml?competitionId=54&seasonId=500&playerId=91692",
+        "https://www.proballers.com/basketball/player/75749/hou-xingyu"
+      ]
+    },
+    {
+      "china_nbl_player_key": "cba:89700",
+      "other_player_key": "proballers:75663",
+      "china_nbl_name": "侯天一",
+      "other_name": "Tianyi Hou",
+      "confidence": "same_official_id_name_and_cba_team_season",
+      "birth_date": "1995-10-20",
+      "evidence": "Official NBL and CBA profiles share player ID 89700 and the Chinese name 侯天一; the CBA 20-21 team 四川五粮金樽 matches the Proballers Sichuan Blue Whales player-season.",
+      "evidence_urls": [
+        "https://www.cba.net.cn/nblqyzhsj/index.jhtml?competitionId=58&seasonId=2094&playerId=89700",
+        "https://www.cba.net.cn/cbaqyzhsj/index.jhtml?competitionId=54&seasonId=500&playerId=89700",
+        "https://www.proballers.com/basketball/player/75663/tianyi-hou"
+      ]
+    },
+    {
+      "china_nbl_player_key": "cba:7819",
+      "other_player_key": "proballers:178290",
+      "china_nbl_name": "刘传兴",
+      "other_name": "Chuanxing Liu",
+      "confidence": "same_official_id_name_and_cba_team_season",
+      "birth_date": "1999-07-30",
+      "evidence": "Official NBL and CBA profiles share player ID 7819 and the Chinese name 刘传兴; the CBA 25-26 team 山西汾酒 matches the Proballers Shanxi Loongs player-season.",
+      "evidence_urls": [
+        "https://www.cba.net.cn/nblqyzhsj/index.jhtml?competitionId=58&seasonId=1643&playerId=7819",
+        "https://www.cba.net.cn/cbaqyzhsj/index.jhtml?competitionId=54&seasonId=2095&playerId=7819",
+        "https://www.proballers.com/basketball/player/178290/chuanxing-liu"
+      ]
+    },
+    {
+      "china_nbl_player_key": "cba:55911",
+      "other_player_key": "proballers:262500",
+      "china_nbl_name": "刘傲",
+      "other_name": "Liu Ao",
+      "confidence": "same_official_id_name_and_cba_team_season",
+      "birth_date": "1999-10-29",
+      "evidence": "Official NBL and CBA profiles share player ID 55911 and the Chinese name 刘傲; the CBA 22-23 team 北京控股 matches the Proballers Beikong Royal Fighters player-season.",
+      "evidence_urls": [
+        "https://www.cba.net.cn/nblqyzhsj/index.jhtml?competitionId=58&seasonId=1928&playerId=55911",
+        "https://www.cba.net.cn/cbaqyzhsj/index.jhtml?competitionId=54&seasonId=1103&playerId=55911",
+        "https://www.proballers.com/basketball/player/262500/liu-ao"
+      ]
+    },
+    {
+      "china_nbl_player_key": "cba:20601",
+      "other_player_key": "proballers:181719",
+      "china_nbl_name": "刘剑阁",
+      "other_name": "Liu Jiange",
+      "confidence": "same_official_id_name_and_cba_team_season",
+      "birth_date": "1999-07-31",
+      "evidence": "Official NBL and CBA profiles share player ID 20601 and the Chinese name 刘剑阁; the CBA 20-21 team 苏州肯帝亚 matches the Proballers Jiangsu Dragons player-season.",
+      "evidence_urls": [
+        "https://www.cba.net.cn/nblqyzhsj/index.jhtml?competitionId=58&seasonId=2094&playerId=20601",
+        "https://www.cba.net.cn/cbaqyzhsj/index.jhtml?competitionId=54&seasonId=500&playerId=20601",
+        "https://www.proballers.com/basketball/player/181719/liu-jiange"
+      ]
+    },
+    {
+      "china_nbl_player_key": "cba:4077",
+      "other_player_key": "proballers:17238",
+      "china_nbl_name": "刘大鹏",
+      "other_name": "Dapeng Liu",
+      "confidence": "same_official_id_name_and_cba_team_season",
+      "birth_date": "1989-11-14",
+      "evidence": "Official NBL and CBA profiles share player ID 4077 and the Chinese name 刘大鹏; the CBA 19-20 team 山东西王 matches the Proballers Shandong player-season.",
+      "evidence_urls": [
+        "https://www.cba.net.cn/nblqyzhsj/index.jhtml?competitionId=58&seasonId=1342&playerId=4077",
+        "https://www.cba.net.cn/cbaqyzhsj/index.jhtml?competitionId=54&seasonId=267&playerId=4077",
+        "https://www.proballers.com/basketball/player/17238/dapeng-liu"
+      ]
+    },
+    {
+      "china_nbl_player_key": "cba:6665",
+      "other_player_key": "proballers:177305",
+      "china_nbl_name": "刘宇轩",
+      "other_name": "Liu Yuxuan",
+      "confidence": "same_official_id_name_and_cba_team_season",
+      "birth_date": "1999-01-22",
+      "evidence": "Official NBL and CBA profiles share player ID 6665 and the Chinese name 刘宇轩; the CBA 21-22 team 苏州肯帝亚 matches the Proballers Jiangsu Dragons player-season.",
+      "evidence_urls": [
+        "https://www.cba.net.cn/nblqyzhsj/index.jhtml?competitionId=58&seasonId=2094&playerId=6665",
+        "https://www.cba.net.cn/cbaqyzhsj/index.jhtml?competitionId=54&seasonId=869&playerId=6665",
+        "https://www.proballers.com/basketball/player/177305/liu-yuxuan"
+      ]
+    },
+    {
+      "china_nbl_player_key": "cba:8339",
+      "other_player_key": "proballers:177275",
+      "china_nbl_name": "刘帅",
+      "other_name": "Liu Shuai",
+      "confidence": "same_official_id_name_and_cba_team_season",
+      "birth_date": "1995-07-12",
+      "evidence": "Official NBL and CBA profiles share player ID 8339 and the Chinese name 刘帅; the CBA 19-20 team 天津先行者 matches the Proballers Tianjin Pioneers player-season.",
+      "evidence_urls": [
+        "https://www.cba.net.cn/nblqyzhsj/index.jhtml?competitionId=58&seasonId=1928&playerId=8339",
+        "https://www.cba.net.cn/cbaqyzhsj/index.jhtml?competitionId=54&seasonId=267&playerId=8339",
+        "https://www.proballers.com/basketball/player/177275/liu-shuai"
+      ]
+    },
+    {
+      "china_nbl_player_key": "cba:107534",
+      "other_player_key": "proballers:177304",
+      "china_nbl_name": "刘羽楠",
+      "other_name": "Liu Yunan",
+      "confidence": "same_official_id_name_and_cba_team_season",
+      "birth_date": "1994-11-18",
+      "evidence": "Official NBL and CBA profiles share player ID 107534 and the Chinese name 刘羽楠; the CBA 20-21 team 南京同曦宙光 matches the Proballers Nanjing Monkey Kings player-season.",
+      "evidence_urls": [
+        "https://www.cba.net.cn/nblqyzhsj/index.jhtml?competitionId=58&seasonId=1342&playerId=107534",
+        "https://www.cba.net.cn/cbaqyzhsj/index.jhtml?competitionId=54&seasonId=500&playerId=107534",
+        "https://www.proballers.com/basketball/player/177304/liu-yunan"
+      ]
+    },
+    {
+      "china_nbl_player_key": "cba:521870",
+      "other_player_key": "nbl1:17dceb2a-0b97-11f0-bce2-f1ac9b924908",
+      "china_nbl_name": "卡迪姆.赛",
+      "other_name": "Khadim Sy",
+      "confidence": "official_birthdate_and_career_confirmed",
+      "birth_date": "1997-04-10",
+      "evidence": "The official NBL profile gives Khadim Sy's birth date as 1997-04-10. The existing reviewed nbl1 identity file independently links this Kilsyth Cobras player to the same Proballers Khadim Sy by exact birth date.",
+      "evidence_urls": [
+        "https://www.cba.net.cn/nblqyzhsj/index.jhtml?competitionId=58&seasonId=2094&playerId=521870",
+        "https://www.nbl1.com.au/news/2025-nbl1-south-roster-tracker",
+        "https://www.nbl1.com.au/stats-details/south"
+      ]
+    },
+    {
+      "china_nbl_player_key": "cba:521870",
+      "other_player_key": "proballers:72829",
+      "china_nbl_name": "卡迪姆.赛",
+      "other_name": "Khadim Sy",
+      "confidence": "official_birthdate_and_career_confirmed",
+      "birth_date": "1997-04-10",
+      "evidence": "The official NBL profile and Virginia Tech player biography identify Khadim Sy with the same 1997-04-10 birth date; the linked Proballers career includes his Ole Miss college stint.",
+      "evidence_urls": [
+        "https://www.cba.net.cn/nblqyzhsj/index.jhtml?competitionId=58&seasonId=2094&playerId=521870",
+        "https://hokiesports.com/sports/mens-basketball/roster/season/2017-18/player/khadim-sy-1",
+        "https://www.proballers.com/basketball/player/72829/khadim-sy"
+      ]
+    },
+    {
+      "china_nbl_player_key": "cba:5355",
+      "other_player_key": "proballers:15258",
+      "china_nbl_name": "卫猛",
+      "other_name": "Meng Wei",
+      "confidence": "same_official_id_name_and_cba_team_season",
+      "birth_date": "1989-10-25",
+      "evidence": "Official NBL and CBA profiles share player ID 5355 and the Chinese name 卫猛; the CBA 19-20 team 山西汾酒股份 matches the Proballers Shanxi player-season.",
+      "evidence_urls": [
+        "https://www.cba.net.cn/nblqyzhsj/index.jhtml?competitionId=58&seasonId=768&playerId=5355",
+        "https://www.cba.net.cn/cbaqyzhsj/index.jhtml?competitionId=54&seasonId=267&playerId=5355",
+        "https://www.proballers.com/basketball/player/15258/meng-wei"
+      ]
+    },
+    {
+      "china_nbl_player_key": "cba:2774",
+      "other_player_key": "proballers:47507",
+      "china_nbl_name": "周启新",
+      "other_name": "Qixin Zhou",
+      "confidence": "same_official_id_name_and_cba_team_season",
+      "birth_date": "1985-09-28",
+      "evidence": "Official NBL and CBA profiles share player ID 2774 and the Chinese name 周启新; the CBA 17-18 team 福建SBS matches the Proballers Fujian Sturgeons player-season.",
+      "evidence_urls": [
+        "https://www.cba.net.cn/nblqyzhsj/index.jhtml?competitionId=58&seasonId=768&playerId=2774",
+        "https://www.cba.net.cn/cbaqyzhsj/index.jhtml?competitionId=54&seasonId=227&playerId=2774",
+        "https://www.proballers.com/basketball/player/47507/qixin-zhou"
+      ]
+    },
+    {
+      "china_nbl_player_key": "cba:352558",
+      "other_player_key": "proballers:65274",
+      "china_nbl_name": "奥克塔维尤斯·埃利斯",
+      "other_name": "Octavius Ellis",
+      "confidence": "same_official_id_english_name_birthdate_and_cba_team_season",
+      "birth_date": "1993-03-10",
+      "evidence": "Official NBL and CBA profiles share player ID 352558, English name Octavius Ellis, and birth date 1993-03-10; the CBA 22-23 team 广东东莞大益 matches the Proballers Guangdong Southern Tigers player-season.",
+      "evidence_urls": [
+        "https://www.cba.net.cn/nblqyzhsj/index.jhtml?competitionId=58&seasonId=1342&playerId=352558",
+        "https://www.cba.net.cn/cbaqyzhsj/index.jhtml?competitionId=54&seasonId=1103&playerId=352558",
+        "https://www.proballers.com/basketball/player/65274/octavius-ellis"
+      ]
+    },
+    {
+      "china_nbl_player_key": "cba:5436",
+      "other_player_key": "proballers:72091",
+      "china_nbl_name": "姚天一",
+      "other_name": "Yao Tianyi",
+      "confidence": "same_official_id_name_and_cba_team_season",
+      "birth_date": "1994-09-01",
+      "evidence": "Official NBL and CBA profiles share player ID 5436 and the Chinese name 姚天一; the CBA 17-18 team 九台农商银行 matches the Proballers Jilin Northeast Tigers player-season.",
+      "evidence_urls": [
+        "https://www.cba.net.cn/nblqyzhsj/index.jhtml?competitionId=58&seasonId=1093&playerId=5436",
+        "https://www.cba.net.cn/cbaqyzhsj/index.jhtml?competitionId=54&seasonId=227&playerId=5436",
+        "https://www.proballers.com/basketball/player/72091/yao-tianyi"
+      ]
+    },
+    {
+      "china_nbl_player_key": "cba:4030",
+      "other_player_key": "proballers:5799",
+      "china_nbl_name": "孙伟博",
+      "other_name": "Weibo Sun",
+      "confidence": "same_official_id_name_and_cba_team_season",
+      "birth_date": "1989-03-15",
+      "evidence": "Official NBL and CBA profiles share player ID 4030 and the Chinese name 孙伟博; the CBA 18-19 team 山西汾酒股份 matches the Proballers Shanxi player-season.",
+      "evidence_urls": [
+        "https://www.cba.net.cn/nblqyzhsj/index.jhtml?competitionId=58&seasonId=1342&playerId=4030",
+        "https://www.cba.net.cn/cbaqyzhsj/index.jhtml?competitionId=54&seasonId=239&playerId=4030",
+        "https://www.proballers.com/basketball/player/5799/weibo-sun"
+      ]
+    },
+    {
+      "china_nbl_player_key": "cba:3918",
+      "other_player_key": "proballers:23121",
+      "china_nbl_name": "孙喆",
+      "other_name": "Zhe Sun",
+      "confidence": "same_official_id_name_and_cba_team_season",
+      "birth_date": "1990-08-14",
+      "evidence": "Official NBL and CBA profiles share player ID 3918 and the Chinese name 孙喆; the CBA 22-23 team 福建浔兴股份 matches the Proballers Fujian Sturgeons player-season.",
+      "evidence_urls": [
+        "https://www.cba.net.cn/nblqyzhsj/index.jhtml?competitionId=58&seasonId=1342&playerId=3918",
+        "https://www.cba.net.cn/cbaqyzhsj/index.jhtml?competitionId=54&seasonId=1103&playerId=3918",
+        "https://www.proballers.com/basketball/player/23121/zhe-sun"
+      ]
+    },
+    {
+      "china_nbl_player_key": "cba:6486",
+      "other_player_key": "proballers:180964",
+      "china_nbl_name": "孙晨然",
+      "other_name": "Sun Chenran",
+      "confidence": "same_official_id_name_and_cba_team_season",
+      "birth_date": "1999-04-30",
+      "evidence": "Official NBL and CBA profiles share player ID 6486 and the Chinese name 孙晨然; the CBA 22-23 team 北京首钢 matches the Proballers Beijing Ducks player-season.",
+      "evidence_urls": [
+        "https://www.cba.net.cn/nblqyzhsj/index.jhtml?competitionId=58&seasonId=2094&playerId=6486",
+        "https://www.cba.net.cn/cbaqyzhsj/index.jhtml?competitionId=54&seasonId=1103&playerId=6486",
+        "https://www.proballers.com/basketball/player/180964/sun-chenran"
+      ]
+    },
+    {
+      "china_nbl_player_key": "cba:20625",
+      "other_player_key": "proballers:177319",
+      "china_nbl_name": "孙鑫",
+      "other_name": "Sun Xin",
+      "confidence": "same_official_id_name_and_cba_team_season",
+      "birth_date": "2000-04-28",
+      "evidence": "Official NBL and CBA profiles share player ID 20625 and the Chinese name 孙鑫; the CBA 21-22 team 苏州肯帝亚 matches the Proballers Jiangsu Dragons player-season.",
+      "evidence_urls": [
+        "https://www.cba.net.cn/nblqyzhsj/index.jhtml?competitionId=58&seasonId=2094&playerId=20625",
+        "https://www.cba.net.cn/cbaqyzhsj/index.jhtml?competitionId=54&seasonId=869&playerId=20625",
+        "https://www.proballers.com/basketball/player/177319/sun-xin"
+      ]
+    },
+    {
+      "china_nbl_player_key": "cba:4867",
+      "other_player_key": "proballers:61894",
+      "china_nbl_name": "孙鸣阳",
+      "other_name": "Mingyang Sun",
+      "confidence": "same_official_id_name_and_cba_team_season",
+      "birth_date": "1994-01-23",
+      "evidence": "Official NBL and CBA profiles share player ID 4867 and the Chinese name 孙鸣阳; the CBA 25-26 team 南京天之蓝 matches the Proballers Nanjing Monkey Kings player-season.",
+      "evidence_urls": [
+        "https://www.cba.net.cn/nblqyzhsj/index.jhtml?competitionId=58&seasonId=1643&playerId=4867",
+        "https://www.cba.net.cn/cbaqyzhsj/index.jhtml?competitionId=54&seasonId=2095&playerId=4867",
+        "https://www.proballers.com/basketball/player/61894/mingyang-sun"
+      ]
+    },
+    {
+      "china_nbl_player_key": "cba:9380",
+      "other_player_key": "proballers:181747",
+      "china_nbl_name": "孟博龙",
+      "other_name": "Bolong Meng",
+      "confidence": "same_official_id_name_and_cba_team_season",
+      "birth_date": "1996-05-03",
+      "evidence": "Official NBL and CBA profiles share player ID 9380 and the Chinese name 孟博龙; the CBA 19-20 team 北京控股 matches the Proballers Beikong Royal Fighters player-season.",
+      "evidence_urls": [
+        "https://www.cba.net.cn/nblqyzhsj/index.jhtml?competitionId=58&seasonId=1093&playerId=9380",
+        "https://www.cba.net.cn/cbaqyzhsj/index.jhtml?competitionId=54&seasonId=267&playerId=9380",
+        "https://www.proballers.com/basketball/player/181747/bolong-meng"
+      ]
+    },
+    {
+      "china_nbl_player_key": "cba:45660",
+      "other_player_key": "proballers:251359",
+      "china_nbl_name": "孟天艺",
+      "other_name": "Tianyi Meng",
+      "confidence": "same_official_id_name_and_cba_team_season",
+      "birth_date": "1999-03-22",
+      "evidence": "Official NBL and CBA profiles share player ID 45660 and the Chinese name 孟天艺; the CBA 23-24 team 四川金强 matches the Proballers Sichuan Blue Whales player-season.",
+      "evidence_urls": [
+        "https://www.cba.net.cn/nblqyzhsj/index.jhtml?competitionId=58&seasonId=2094&playerId=45660",
+        "https://www.cba.net.cn/cbaqyzhsj/index.jhtml?competitionId=54&seasonId=1474&playerId=45660",
+        "https://www.proballers.com/basketball/player/251359/tianyi-meng"
+      ]
+    },
+    {
+      "china_nbl_player_key": "cba:44514",
+      "other_player_key": "proballers:17711",
+      "china_nbl_name": "寸守伟",
+      "other_name": "Shouwei Cun",
+      "confidence": "same_official_id_name_and_cba_team_season",
+      "birth_date": "1986-12-27",
+      "evidence": "Official NBL and CBA profiles share player ID 44514 and the Chinese name 寸守伟; the CBA 18-19 team 青岛国信双星 matches the Proballers Qingdao Eagles player-season.",
+      "evidence_urls": [
+        "https://www.cba.net.cn/nblqyzhsj/index.jhtml?competitionId=58&seasonId=1342&playerId=44514",
+        "https://www.cba.net.cn/cbaqyzhsj/index.jhtml?competitionId=54&seasonId=239&playerId=44514",
+        "https://www.proballers.com/basketball/player/17711/shouwei-cun"
+      ]
+    },
+    {
+      "china_nbl_player_key": "cba:486031",
+      "other_player_key": "proballers:212246",
+      "china_nbl_name": "崔晓龙",
+      "other_name": "Xiaolong Cui",
+      "confidence": "same_official_id_name_and_cba_team_season",
+      "birth_date": "1999-02-19",
+      "evidence": "Official NBL and CBA profiles share player ID 486031 and the Chinese name 崔晓龙; the CBA 25-26 team 上海久事 matches the Proballers Shanghai Sharks player-season.",
+      "evidence_urls": [
+        "https://www.cba.net.cn/nblqyzhsj/index.jhtml?competitionId=58&seasonId=768&playerId=486031",
+        "https://www.cba.net.cn/cbaqyzhsj/index.jhtml?competitionId=54&seasonId=2095&playerId=486031",
+        "https://www.proballers.com/basketball/player/212246/xiaolong-cui"
+      ]
+    },
+    {
+      "china_nbl_player_key": "cba:709",
+      "other_player_key": "proballers:212178",
+      "china_nbl_name": "席益民",
+      "other_name": "Yimin Xi",
+      "confidence": "same_official_id_name_and_cba_team_season",
+      "birth_date": "2001-01-17",
+      "evidence": "Official NBL and CBA profiles share player ID 709 and the Chinese name 席益民; the CBA 22-23 team 青岛国信水产 matches the Proballers Qingdao Eagles player-season.",
+      "evidence_urls": [
+        "https://www.cba.net.cn/nblqyzhsj/index.jhtml?competitionId=58&seasonId=2094&playerId=709",
+        "https://www.cba.net.cn/cbaqyzhsj/index.jhtml?competitionId=54&seasonId=1103&playerId=709",
+        "https://www.proballers.com/basketball/player/212178/yimin-xi"
+      ]
+    },
+    {
+      "china_nbl_player_key": "cba:20068",
+      "other_player_key": "proballers:212275",
+      "china_nbl_name": "庞峥麟",
+      "other_name": "Zhenglin Pang",
+      "confidence": "same_official_id_name_and_cba_team_season",
+      "birth_date": "1999-04-24",
+      "evidence": "Official NBL and CBA profiles share player ID 20068 and the Chinese name 庞峥麟; the CBA 25-26 team 江苏肯帝亚 matches the Proballers Jiangsu Dragons player-season.",
+      "evidence_urls": [
+        "https://www.cba.net.cn/nblqyzhsj/index.jhtml?competitionId=58&seasonId=1928&playerId=20068",
+        "https://www.cba.net.cn/cbaqyzhsj/index.jhtml?competitionId=54&seasonId=2095&playerId=20068",
+        "https://www.proballers.com/basketball/player/212275/zhenglin-pang"
+      ]
+    },
+    {
+      "china_nbl_player_key": "cba:426",
+      "other_player_key": "proballers:283776",
+      "china_nbl_name": "张效炎",
+      "other_name": "Xiaoyan Zhang",
+      "confidence": "same_official_id_name_and_cba_team_season",
+      "birth_date": "2004-09-16",
+      "evidence": "Official NBL and CBA profiles share player ID 426 and the Chinese name 张效炎; the CBA 23-24 team 青岛国信水产 matches the Proballers Qingdao Eagles player-season.",
+      "evidence_urls": [
+        "https://www.cba.net.cn/nblqyzhsj/index.jhtml?competitionId=58&seasonId=2094&playerId=426",
+        "https://www.cba.net.cn/cbaqyzhsj/index.jhtml?competitionId=54&seasonId=1474&playerId=426",
+        "https://www.proballers.com/basketball/player/283776/xiaoyan-zhang"
+      ]
+    },
+    {
+      "china_nbl_player_key": "cba:25312",
+      "other_player_key": "proballers:75729",
+      "china_nbl_name": "张昊",
+      "other_name": "Hao Zhang",
+      "confidence": "same_official_id_name_and_cba_team_season",
+      "birth_date": "1997-02-21",
+      "evidence": "Official NBL and CBA profiles share player ID 25312 and the Chinese name 张昊; the CBA 17-18 team 青岛国信双星 matches the Proballers Qingdao Eagles player-season.",
+      "evidence_urls": [
+        "https://www.cba.net.cn/nblqyzhsj/index.jhtml?competitionId=58&seasonId=2094&playerId=25312",
+        "https://www.cba.net.cn/cbaqyzhsj/index.jhtml?competitionId=54&seasonId=227&playerId=25312",
+        "https://www.proballers.com/basketball/player/75729/hao-zhang"
+      ]
+    },
+    {
+      "china_nbl_player_key": "cba:3829",
+      "other_player_key": "proballers:8018",
+      "china_nbl_name": "张永鹏",
+      "other_name": "Yongpeng Zhang",
+      "confidence": "same_official_id_name_and_cba_team_season",
+      "birth_date": "1990-03-12",
+      "evidence": "Official NBL and CBA profiles share player ID 3829 and the Chinese name 张永鹏; the CBA 23-24 team 福建浔兴股份 matches the Proballers Fujian Sturgeons player-season.",
+      "evidence_urls": [
+        "https://www.cba.net.cn/nblqyzhsj/index.jhtml?competitionId=58&seasonId=1643&playerId=3829",
+        "https://www.cba.net.cn/cbaqyzhsj/index.jhtml?competitionId=54&seasonId=1474&playerId=3829",
+        "https://www.proballers.com/basketball/player/8018/yongpeng-zhang"
+      ]
+    },
+    {
+      "china_nbl_player_key": "cba:5243",
+      "other_player_key": "proballers:268473",
+      "china_nbl_name": "张祖铭",
+      "other_name": "Zuming Zhang",
+      "confidence": "same_official_id_name_and_cba_team_season",
+      "birth_date": "1995-01-27",
+      "evidence": "Official NBL and CBA profiles share player ID 5243 and the Chinese name 张祖铭; the CBA 23-24 team 宁波町渥 matches the Proballers Ningbo Rockets player-season.",
+      "evidence_urls": [
+        "https://www.cba.net.cn/nblqyzhsj/index.jhtml?competitionId=58&seasonId=2094&playerId=5243",
+        "https://www.cba.net.cn/cbaqyzhsj/index.jhtml?competitionId=54&seasonId=1474&playerId=5243",
+        "https://www.proballers.com/basketball/player/268473/zuming-zhang"
+      ]
+    },
+    {
+      "china_nbl_player_key": "cba:5243",
+      "other_player_key": "proballers:287793",
+      "china_nbl_name": "张祖铭",
+      "other_name": "Zhang Zuming",
+      "confidence": "same_official_id_name_and_cba_team_season",
+      "birth_date": "1995-01-27",
+      "evidence": "Official NBL and CBA profiles share player ID 5243 and the Chinese name 张祖铭; the CBA 24-25 team 宁波町渥 matches the Proballers Ningbo Rockets player-season.",
+      "evidence_urls": [
+        "https://www.cba.net.cn/nblqyzhsj/index.jhtml?competitionId=58&seasonId=2094&playerId=5243",
+        "https://www.cba.net.cn/cbaqyzhsj/index.jhtml?competitionId=54&seasonId=1758&playerId=5243",
+        "https://www.proballers.com/basketball/player/287793/zhang-zuming"
+      ]
+    },
+    {
+      "china_nbl_player_key": "cba:7449",
+      "other_player_key": "proballers:274638",
+      "china_nbl_name": "张稀然",
+      "other_name": "Zhang Xiran",
+      "confidence": "same_official_id_name_and_cba_team_season",
+      "birth_date": "1997-02-25",
+      "evidence": "Official NBL and CBA profiles share player ID 7449 and the Chinese name 张稀然; the CBA 23-24 team 江苏肯帝亚 matches the Proballers Jiangsu Dragons player-season.",
+      "evidence_urls": [
+        "https://www.cba.net.cn/nblqyzhsj/index.jhtml?competitionId=58&seasonId=2094&playerId=7449",
+        "https://www.cba.net.cn/cbaqyzhsj/index.jhtml?competitionId=54&seasonId=1474&playerId=7449",
+        "https://www.proballers.com/basketball/player/274638/zhang-xiran"
+      ]
+    },
+    {
+      "china_nbl_player_key": "cba:5487",
+      "other_player_key": "proballers:14052",
+      "china_nbl_name": "张翌星",
+      "other_name": "Yi Xing Zhang",
+      "confidence": "same_official_id_name_and_cba_team_season",
+      "birth_date": "1993-10-17",
+      "evidence": "Official NBL and CBA profiles share player ID 5487 and the Chinese name 张翌星; the CBA 17-18 team 南京同曦 matches the Proballers Nanjing Monkey Kings player-season.",
+      "evidence_urls": [
+        "https://www.cba.net.cn/nblqyzhsj/index.jhtml?competitionId=58&seasonId=768&playerId=5487",
+        "https://www.cba.net.cn/cbaqyzhsj/index.jhtml?competitionId=54&seasonId=227&playerId=5487",
+        "https://www.proballers.com/basketball/player/14052/yi-xing-zhang"
+      ]
+    },
+    {
+      "china_nbl_player_key": "cba:4866",
+      "other_player_key": "proballers:72117",
+      "china_nbl_name": "张韩",
+      "other_name": "Zhang Han",
+      "confidence": "same_official_id_name_and_cba_team_season",
+      "birth_date": "1994-09-28",
+      "evidence": "Official NBL and CBA profiles share player ID 4866 and the Chinese name 张韩; the CBA 19-20 team 南京同曦宙光 matches the Proballers Nanjing Monkey Kings player-season.",
+      "evidence_urls": [
+        "https://www.cba.net.cn/nblqyzhsj/index.jhtml?competitionId=58&seasonId=2094&playerId=4866",
+        "https://www.cba.net.cn/cbaqyzhsj/index.jhtml?competitionId=54&seasonId=267&playerId=4866",
+        "https://www.proballers.com/basketball/player/72117/zhang-han"
+      ]
+    },
+    {
+      "china_nbl_player_key": "cba:455566",
+      "other_player_key": "proballers:245586",
+      "china_nbl_name": "戴维恩•沃伦",
+      "other_name": "Davion Warren",
+      "confidence": "same_official_id_english_name_birthdate_and_cba_team_season",
+      "birth_date": "1999-03-01",
+      "evidence": "Official NBL and CBA profiles share player ID 455566, English name DAVION WARREN, and birth date 1999-03-01; the CBA 24-25 team 广州朗肽海本 matches the Proballers Guangzhou Loong Lions player-season.",
+      "evidence_urls": [
+        "https://www.cba.net.cn/nblqyzhsj/index.jhtml?competitionId=58&seasonId=1928&playerId=455566",
+        "https://www.cba.net.cn/cbaqyzhsj/index.jhtml?competitionId=54&seasonId=1758&playerId=455566",
+        "https://www.proballers.com/basketball/player/245586/davion-warren"
+      ]
+    },
+    {
+      "china_nbl_player_key": "cba:438604",
+      "other_player_key": "proballers:51175",
+      "china_nbl_name": "托马斯·基兹林克",
+      "other_name": "Tomas Kyzlink",
+      "confidence": "same_official_id_english_name_birthdate_and_cba_team_season",
+      "birth_date": "1993-06-18",
+      "evidence": "Official NBL and CBA profiles share player ID 438604, English name TOMAS KYZLINK, and birth date 1993-06-18; the CBA 25-26 team 北京控股 matches the Proballers Beikong Royal Fighters player-season.",
+      "evidence_urls": [
+        "https://www.cba.net.cn/nblqyzhsj/index.jhtml?competitionId=58&seasonId=2094&playerId=438604",
+        "https://www.cba.net.cn/cbaqyzhsj/index.jhtml?competitionId=54&seasonId=2095&playerId=438604",
+        "https://www.proballers.com/basketball/player/51175/tomas-kyzlink"
+      ]
+    },
+    {
+      "china_nbl_player_key": "cba:6118",
+      "other_player_key": "proballers:75940",
+      "china_nbl_name": "景浩扬",
+      "other_name": "Haoyang Jing",
+      "confidence": "same_official_id_name_and_cba_team_season",
+      "birth_date": "1996-11-01",
+      "evidence": "Official NBL and CBA profiles share player ID 6118 and the Chinese name 景浩扬; the CBA 25-26 team 四川丰谷酒业 matches the Proballers Sichuan Blue Whales player-season.",
+      "evidence_urls": [
+        "https://www.cba.net.cn/nblqyzhsj/index.jhtml?competitionId=58&seasonId=1643&playerId=6118",
+        "https://www.cba.net.cn/cbaqyzhsj/index.jhtml?competitionId=54&seasonId=2095&playerId=6118",
+        "https://www.proballers.com/basketball/player/75940/haoyang-jing"
+      ]
+    },
+    {
+      "china_nbl_player_key": "cba:54747",
+      "other_player_key": "proballers:206611",
+      "china_nbl_name": "朱松玮",
+      "other_name": "Zhu Songwei",
+      "confidence": "same_official_id_name_and_cba_team_season",
+      "birth_date": "1996-11-09",
+      "evidence": "Official NBL and CBA profiles share player ID 54747 and the Chinese name 朱松玮; the CBA 25-26 team 北京控股 matches the Proballers Beikong Royal Fighters player-season.",
+      "evidence_urls": [
+        "https://www.cba.net.cn/nblqyzhsj/index.jhtml?competitionId=58&seasonId=1643&playerId=54747",
+        "https://www.cba.net.cn/cbaqyzhsj/index.jhtml?competitionId=54&seasonId=2095&playerId=54747",
+        "https://www.proballers.com/basketball/player/206611/zhu-songwei"
+      ]
+    },
+    {
+      "china_nbl_player_key": "cba:9166",
+      "other_player_key": "proballers:277248",
+      "china_nbl_name": "李云开",
+      "other_name": "Yunkai Li",
+      "confidence": "same_official_id_name_and_cba_team_season",
+      "birth_date": "2000-02-13",
+      "evidence": "Official NBL and CBA profiles share player ID 9166 and the Chinese name 李云开; the CBA 24-25 team 南京头排苏酒 matches the Proballers Nanjing Monkey Kings player-season.",
+      "evidence_urls": [
+        "https://www.cba.net.cn/nblqyzhsj/index.jhtml?competitionId=58&seasonId=2094&playerId=9166",
+        "https://www.cba.net.cn/cbaqyzhsj/index.jhtml?competitionId=54&seasonId=1758&playerId=9166",
+        "https://www.proballers.com/basketball/player/277248/yunkai-li"
+      ]
+    },
+    {
+      "china_nbl_player_key": "cba:96798",
+      "other_player_key": "proballers:75923",
+      "china_nbl_name": "李柯七",
+      "other_name": "Keqi Li",
+      "confidence": "same_official_id_name_and_cba_team_season",
+      "birth_date": "1995-03-23",
+      "evidence": "Official NBL and CBA profiles share player ID 96798 and the Chinese name 李柯七; the CBA 21-22 team 四川金荣实业 matches the Proballers Sichuan Blue Whales player-season.",
+      "evidence_urls": [
+        "https://www.cba.net.cn/nblqyzhsj/index.jhtml?competitionId=58&seasonId=1093&playerId=96798",
+        "https://www.cba.net.cn/cbaqyzhsj/index.jhtml?competitionId=54&seasonId=869&playerId=96798",
+        "https://www.proballers.com/basketball/player/75923/keqi-li"
+      ]
+    },
+    {
+      "china_nbl_player_key": "cba:9119",
+      "other_player_key": "proballers:70084",
+      "china_nbl_name": "李祥波",
+      "other_name": "Xiangbo Li",
+      "confidence": "same_official_id_name_and_cba_team_season",
+      "birth_date": "1999-10-22",
+      "evidence": "Official NBL and CBA profiles share player ID 9119 and the Chinese name 李祥波; the CBA 25-26 team 广州朗肽海本 matches the Proballers Guangzhou Loong Lions player-season.",
+      "evidence_urls": [
+        "https://www.cba.net.cn/nblqyzhsj/index.jhtml?competitionId=58&seasonId=1643&playerId=9119",
+        "https://www.cba.net.cn/cbaqyzhsj/index.jhtml?competitionId=54&seasonId=2095&playerId=9119",
+        "https://www.proballers.com/basketball/player/70084/xiangbo-li"
+      ]
+    },
+    {
+      "china_nbl_player_key": "cba:4484",
+      "other_player_key": "proballers:17243",
+      "china_nbl_name": "李雪松",
+      "other_name": "Xuesong Li",
+      "confidence": "same_official_id_name_and_cba_team_season",
+      "birth_date": "1991-07-08",
+      "evidence": "Official NBL and CBA profiles share player ID 4484 and the Chinese name 李雪松; the CBA 17-18 team 北京农商银行 matches the Proballers Beikong Royal Fighters player-season.",
+      "evidence_urls": [
+        "https://www.cba.net.cn/nblqyzhsj/index.jhtml?competitionId=58&seasonId=1342&playerId=4484",
+        "https://www.cba.net.cn/cbaqyzhsj/index.jhtml?competitionId=54&seasonId=227&playerId=4484",
+        "https://www.proballers.com/basketball/player/17243/xuesong-li"
+      ]
+    },
+    {
+      "china_nbl_player_key": "cba:6144",
+      "other_player_key": "proballers:212286",
+      "china_nbl_name": "杨文学",
+      "other_name": "Wenxue Yang",
+      "confidence": "same_official_id_name_and_cba_team_season",
+      "birth_date": "1999-05-06",
+      "evidence": "Official NBL and CBA profiles share player ID 6144 and the Chinese name 杨文学; the CBA 25-26 team 四川丰谷酒业 matches the Proballers Sichuan Blue Whales player-season.",
+      "evidence_urls": [
+        "https://www.cba.net.cn/nblqyzhsj/index.jhtml?competitionId=58&seasonId=1928&playerId=6144",
+        "https://www.cba.net.cn/cbaqyzhsj/index.jhtml?competitionId=54&seasonId=2095&playerId=6144",
+        "https://www.proballers.com/basketball/player/212286/wenxue-yang"
+      ]
+    },
+    {
+      "china_nbl_player_key": "cba:4775",
+      "other_player_key": "proballers:55742",
+      "china_nbl_name": "杨越",
+      "other_name": "Yue Yang",
+      "confidence": "same_official_id_name_and_cba_team_season",
+      "birth_date": "1993-02-28",
+      "evidence": "Official NBL and CBA profiles share player ID 4775 and the Chinese name 杨越; the CBA 18-19 team 四川五粮金樽 matches the Proballers Sichuan Blue Whales player-season.",
+      "evidence_urls": [
+        "https://www.cba.net.cn/nblqyzhsj/index.jhtml?competitionId=58&seasonId=2094&playerId=4775",
+        "https://www.cba.net.cn/cbaqyzhsj/index.jhtml?competitionId=54&seasonId=239&playerId=4775",
+        "https://www.proballers.com/basketball/player/55742/yue-yang"
+      ]
+    },
+    {
+      "china_nbl_player_key": "cba:309",
+      "other_player_key": "proballers:276350",
+      "china_nbl_name": "林俊涛",
+      "other_name": "Lin Juntao",
+      "confidence": "same_official_id_name_and_cba_team_season",
+      "birth_date": "2003-09-08",
+      "evidence": "Official NBL and CBA profiles share player ID 309 and the Chinese name 林俊涛; the CBA 24-25 team 宁波町渥 matches the Proballers Ningbo Rockets player-season.",
+      "evidence_urls": [
+        "https://www.cba.net.cn/nblqyzhsj/index.jhtml?competitionId=58&seasonId=2094&playerId=309",
+        "https://www.cba.net.cn/cbaqyzhsj/index.jhtml?competitionId=54&seasonId=1758&playerId=309",
+        "https://www.proballers.com/basketball/player/276350/lin-juntao"
+      ]
+    },
+    {
+      "china_nbl_player_key": "cba:25313",
+      "other_player_key": "proballers:212289",
+      "china_nbl_name": "林秉圣",
+      "other_name": "Bingsheng Lin",
+      "confidence": "same_official_id_name_and_cba_team_season",
+      "birth_date": "1996-12-26",
+      "evidence": "Official NBL and CBA profiles share player ID 25313 and the Chinese name 林秉圣; the CBA 24-25 team 浙江方兴渡 matches the Proballers Zhejiang Lions player-season.",
+      "evidence_urls": [
+        "https://www.cba.net.cn/nblqyzhsj/index.jhtml?competitionId=58&seasonId=768&playerId=25313",
+        "https://www.cba.net.cn/cbaqyzhsj/index.jhtml?competitionId=54&seasonId=1758&playerId=25313",
+        "https://www.proballers.com/basketball/player/212289/bingsheng-lin"
+      ]
+    },
+    {
+      "china_nbl_player_key": "cba:27299",
+      "other_player_key": "proballers:72113",
+      "china_nbl_name": "毕鹏飞",
+      "other_name": "Bi Pengfei",
+      "confidence": "same_official_id_name_and_cba_team_season",
+      "birth_date": "1996-02-06",
+      "evidence": "Official NBL and CBA profiles share player ID 27299 and the Chinese name 毕鹏飞; the CBA 17-18 team 南京同曦 matches the Proballers Nanjing Monkey Kings player-season.",
+      "evidence_urls": [
+        "https://www.cba.net.cn/nblqyzhsj/index.jhtml?competitionId=58&seasonId=768&playerId=27299",
+        "https://www.cba.net.cn/cbaqyzhsj/index.jhtml?competitionId=54&seasonId=227&playerId=27299",
+        "https://www.proballers.com/basketball/player/72113/bi-pengfei"
+      ]
+    },
+    {
+      "china_nbl_player_key": "cba:7184",
+      "other_player_key": "proballers:181744",
+      "china_nbl_name": "汤杰",
+      "other_name": "Tang Jie",
+      "confidence": "same_official_id_name_and_cba_team_season",
+      "birth_date": "1999-03-16",
+      "evidence": "Official NBL and CBA profiles share player ID 7184 and the Chinese name 汤杰; the CBA 21-22 team 广东东莞大益 matches the Proballers Guangdong Southern Tigers player-season.",
+      "evidence_urls": [
+        "https://www.cba.net.cn/nblqyzhsj/index.jhtml?competitionId=58&seasonId=2094&playerId=7184",
+        "https://www.cba.net.cn/cbaqyzhsj/index.jhtml?competitionId=54&seasonId=869&playerId=7184",
+        "https://www.proballers.com/basketball/player/181744/tang-jie"
+      ]
+    },
+    {
+      "china_nbl_player_key": "cba:7456",
+      "other_player_key": "proballers:181903",
+      "china_nbl_name": "王向彬",
+      "other_name": "Xiangbin Wang",
+      "confidence": "same_official_id_name_and_cba_team_season",
+      "birth_date": "1999-01-19",
+      "evidence": "Official NBL and CBA profiles share player ID 7456 and the Chinese name 王向彬; the CBA 22-23 team 宁波町渥 matches the Proballers Ningbo Rockets player-season.",
+      "evidence_urls": [
+        "https://www.cba.net.cn/nblqyzhsj/index.jhtml?competitionId=58&seasonId=2094&playerId=7456",
+        "https://www.cba.net.cn/cbaqyzhsj/index.jhtml?competitionId=54&seasonId=1103&playerId=7456",
+        "https://www.proballers.com/basketball/player/181903/xiangbin-wang"
+      ]
+    },
+    {
+      "china_nbl_player_key": "cba:6773",
+      "other_player_key": "proballers:206673",
+      "china_nbl_name": "王子麒",
+      "other_name": "Ziqi Wang",
+      "confidence": "same_official_id_name_and_cba_team_season",
+      "birth_date": "1996-11-18",
+      "evidence": "Official NBL and CBA profiles share player ID 6773 and the Chinese name 王子麒; the CBA 21-22 team 南京同曦宙光 matches the Proballers Nanjing Monkey Kings player-season.",
+      "evidence_urls": [
+        "https://www.cba.net.cn/nblqyzhsj/index.jhtml?competitionId=58&seasonId=2094&playerId=6773",
+        "https://www.cba.net.cn/cbaqyzhsj/index.jhtml?competitionId=54&seasonId=869&playerId=6773",
+        "https://www.proballers.com/basketball/player/206673/ziqi-wang"
+      ]
+    },
+    {
+      "china_nbl_player_key": "cba:4948",
+      "other_player_key": "proballers:256649",
+      "china_nbl_name": "王庆明",
+      "other_name": "Qing-Ming Wang",
+      "confidence": "same_official_id_name_and_cba_team_season",
+      "birth_date": "1992-09-19",
+      "evidence": "Official NBL and CBA profiles share player ID 4948 and the Chinese name 王庆明; the CBA 22-23 team 浙江东阳光 matches the Proballers Zhejiang Lions player-season.",
+      "evidence_urls": [
+        "https://www.cba.net.cn/nblqyzhsj/index.jhtml?competitionId=58&seasonId=2094&playerId=4948",
+        "https://www.cba.net.cn/cbaqyzhsj/index.jhtml?competitionId=54&seasonId=1103&playerId=4948",
+        "https://www.proballers.com/basketball/player/256649/qing-ming-wang"
+      ]
+    },
+    {
+      "china_nbl_player_key": "cba:4948",
+      "other_player_key": "proballers:61878",
+      "china_nbl_name": "王庆明",
+      "other_name": "Qingming Wang",
+      "confidence": "same_official_id_name_and_cba_team_season",
+      "birth_date": "1992-09-19",
+      "evidence": "Official NBL and CBA profiles share player ID 4948 and the Chinese name 王庆明; the CBA 23-24 team 浙江东阳光药 matches the Proballers Zhejiang Lions player-season.",
+      "evidence_urls": [
+        "https://www.cba.net.cn/nblqyzhsj/index.jhtml?competitionId=58&seasonId=2094&playerId=4948",
+        "https://www.cba.net.cn/cbaqyzhsj/index.jhtml?competitionId=54&seasonId=1474&playerId=4948",
+        "https://www.proballers.com/basketball/player/61878/qingming-wang"
+      ]
+    },
+    {
+      "china_nbl_player_key": "cba:8351",
+      "other_player_key": "proballers:177288",
+      "china_nbl_name": "王思奇",
+      "other_name": "Wang Siqi",
+      "confidence": "same_official_id_name_and_cba_team_season",
+      "birth_date": "1994-02-25",
+      "evidence": "Official NBL and CBA profiles share player ID 8351 and the Chinese name 王思奇; the CBA 18-19 team 青岛国信双星 matches the Proballers Qingdao Eagles player-season.",
+      "evidence_urls": [
+        "https://www.cba.net.cn/nblqyzhsj/index.jhtml?competitionId=58&seasonId=1928&playerId=8351",
+        "https://www.cba.net.cn/cbaqyzhsj/index.jhtml?competitionId=54&seasonId=239&playerId=8351",
+        "https://www.proballers.com/basketball/player/177288/wang-siqi"
+      ]
+    },
+    {
+      "china_nbl_player_key": "cba:5127",
+      "other_player_key": "proballers:68974",
+      "china_nbl_name": "王振宇",
+      "other_name": "Zhenyu Wang",
+      "confidence": "same_official_id_name_and_cba_team_season",
+      "birth_date": "1990-04-16",
+      "evidence": "Official NBL and CBA profiles share player ID 5127 and the Chinese name 王振宇; the CBA 18-19 team 北京农商银行 matches the Proballers Beikong Royal Fighters player-season.",
+      "evidence_urls": [
+        "https://www.cba.net.cn/nblqyzhsj/index.jhtml?competitionId=58&seasonId=768&playerId=5127",
+        "https://www.cba.net.cn/cbaqyzhsj/index.jhtml?competitionId=54&seasonId=239&playerId=5127",
+        "https://www.proballers.com/basketball/player/68974/zhenyu-wang"
+      ]
+    },
+    {
+      "china_nbl_player_key": "cba:7534",
+      "other_player_key": "proballers:63627",
+      "china_nbl_name": "王梓旭",
+      "other_name": "Zixu Wang",
+      "confidence": "same_official_id_name_and_cba_team_season",
+      "birth_date": "1998-11-12",
+      "evidence": "Official NBL and CBA profiles share player ID 7534 and the Chinese name 王梓旭; the CBA 23-24 team 九台农商银行 matches the Proballers Jilin Northeast Tigers player-season.",
+      "evidence_urls": [
+        "https://www.cba.net.cn/nblqyzhsj/index.jhtml?competitionId=58&seasonId=1928&playerId=7534",
+        "https://www.cba.net.cn/cbaqyzhsj/index.jhtml?competitionId=54&seasonId=1474&playerId=7534",
+        "https://www.proballers.com/basketball/player/63627/zixu-wang"
+      ]
+    },
+    {
+      "china_nbl_player_key": "cba:51029",
+      "other_player_key": "proballers:14336",
+      "china_nbl_name": "王薪凯",
+      "other_name": "Xinkai Wang",
+      "confidence": "same_official_id_name_and_cba_team_season",
+      "birth_date": "1995-01-25",
+      "evidence": "Official NBL and CBA profiles share player ID 51029 and the Chinese name 王薪凯; the CBA 22-23 team 广东东莞大益 matches the Proballers Guangdong Southern Tigers player-season.",
+      "evidence_urls": [
+        "https://www.cba.net.cn/nblqyzhsj/index.jhtml?competitionId=58&seasonId=2094&playerId=51029",
+        "https://www.cba.net.cn/cbaqyzhsj/index.jhtml?competitionId=54&seasonId=1103&playerId=51029",
+        "https://www.proballers.com/basketball/player/14336/xinkai-wang"
+      ]
+    },
+    {
+      "china_nbl_player_key": "cba:6192",
+      "other_player_key": "proballers:177610",
+      "china_nbl_name": "田宇恒",
+      "other_name": "Tian Yuheng",
+      "confidence": "same_official_id_name_and_cba_team_season",
+      "birth_date": "1996-06-22",
+      "evidence": "Official NBL and CBA profiles share player ID 6192 and the Chinese name 田宇恒; the CBA 24-25 team 南京头排苏酒 matches the Proballers Nanjing Monkey Kings player-season.",
+      "evidence_urls": [
+        "https://www.cba.net.cn/nblqyzhsj/index.jhtml?competitionId=58&seasonId=2094&playerId=6192",
+        "https://www.cba.net.cn/cbaqyzhsj/index.jhtml?competitionId=54&seasonId=1758&playerId=6192",
+        "https://www.proballers.com/basketball/player/177610/tian-yuheng"
+      ]
+    },
+    {
+      "china_nbl_player_key": "cba:6212",
+      "other_player_key": "proballers:181651",
+      "china_nbl_name": "石颜博",
+      "other_name": "Shi Yanbo",
+      "confidence": "same_official_id_name_and_cba_team_season",
+      "birth_date": "2000-01-23",
+      "evidence": "Official NBL and CBA profiles share player ID 6212 and the Chinese name 石颜博; the CBA 21-22 team 北京控股 matches the Proballers Beikong Royal Fighters player-season.",
+      "evidence_urls": [
+        "https://www.cba.net.cn/nblqyzhsj/index.jhtml?competitionId=58&seasonId=2094&playerId=6212",
+        "https://www.cba.net.cn/cbaqyzhsj/index.jhtml?competitionId=54&seasonId=869&playerId=6212",
+        "https://www.proballers.com/basketball/player/181651/shi-yanbo"
+      ]
+    },
+    {
+      "china_nbl_player_key": "cba:213",
+      "other_player_key": "proballers:256916",
+      "china_nbl_name": "程望樊",
+      "other_name": "Wangfan Cheng",
+      "confidence": "same_official_id_name_and_cba_team_season",
+      "birth_date": "2003-12-07",
+      "evidence": "Official NBL and CBA profiles share player ID 213 and the Chinese name 程望樊; the CBA 24-25 team 青岛国信制药 matches the Proballers Qingdao Eagles player-season.",
+      "evidence_urls": [
+        "https://www.cba.net.cn/nblqyzhsj/index.jhtml?competitionId=58&seasonId=2094&playerId=213",
+        "https://www.cba.net.cn/cbaqyzhsj/index.jhtml?competitionId=54&seasonId=1758&playerId=213",
+        "https://www.proballers.com/basketball/player/256916/wangfan-cheng"
+      ]
+    },
+    {
+      "china_nbl_player_key": "cba:57863",
+      "other_player_key": "proballers:294869",
+      "china_nbl_name": "纪守家",
+      "other_name": "Ji Shoujia",
+      "confidence": "same_official_id_name_and_cba_team_season",
+      "birth_date": "2003-03-13",
+      "evidence": "Official NBL and CBA profiles share player ID 57863 and the Chinese name 纪守家; the CBA 24-25 team 北京北汽 matches the Proballers Beijing Ducks player-season.",
+      "evidence_urls": [
+        "https://www.cba.net.cn/nblqyzhsj/index.jhtml?competitionId=58&seasonId=2094&playerId=57863",
+        "https://www.cba.net.cn/cbaqyzhsj/index.jhtml?competitionId=54&seasonId=1758&playerId=57863",
+        "https://www.proballers.com/basketball/player/294869/ji-shoujia"
+      ]
+    },
+    {
+      "china_nbl_player_key": "cba:270",
+      "other_player_key": "proballers:256715",
+      "china_nbl_name": "翁金郎",
+      "other_name": "Jinlang Weng",
+      "confidence": "same_official_id_name_and_cba_team_season",
+      "birth_date": "2004-03-08",
+      "evidence": "Official NBL and CBA profiles share player ID 270 and the Chinese name 翁金郎; the CBA 22-23 team 福建浔兴股份 matches the Proballers Fujian Sturgeons player-season.",
+      "evidence_urls": [
+        "https://www.cba.net.cn/nblqyzhsj/index.jhtml?competitionId=58&seasonId=2094&playerId=270",
+        "https://www.cba.net.cn/cbaqyzhsj/index.jhtml?competitionId=54&seasonId=1103&playerId=270",
+        "https://www.proballers.com/basketball/player/256715/jinlang-weng"
+      ]
+    },
+    {
+      "china_nbl_player_key": "cba:270",
+      "other_player_key": "proballers:287801",
+      "china_nbl_name": "翁金郎",
+      "other_name": "Weng Jinlang",
+      "confidence": "same_official_id_name_and_cba_team_season",
+      "birth_date": "2004-03-08",
+      "evidence": "Official NBL and CBA profiles share player ID 270 and the Chinese name 翁金郎; the CBA 24-25 team 福建晋江文旅 matches the Proballers Fujian Sturgeons player-season.",
+      "evidence_urls": [
+        "https://www.cba.net.cn/nblqyzhsj/index.jhtml?competitionId=58&seasonId=2094&playerId=270",
+        "https://www.cba.net.cn/cbaqyzhsj/index.jhtml?competitionId=54&seasonId=1758&playerId=270",
+        "https://www.proballers.com/basketball/player/287801/weng-jinlang"
+      ]
+    },
+    {
+      "china_nbl_player_key": "cba:3844",
+      "other_player_key": "proballers:47523",
+      "china_nbl_name": "蔡亮",
+      "other_name": "Liang Cai",
+      "confidence": "same_official_id_name_and_cba_team_season",
+      "birth_date": "1992-01-28",
+      "evidence": "Official NBL and CBA profiles share player ID 3844 and the Chinese name 蔡亮; the CBA 19-20 team 上海久事 matches the Proballers Shanghai Sharks player-season.",
+      "evidence_urls": [
+        "https://www.cba.net.cn/nblqyzhsj/index.jhtml?competitionId=58&seasonId=768&playerId=3844",
+        "https://www.cba.net.cn/cbaqyzhsj/index.jhtml?competitionId=54&seasonId=267&playerId=3844",
+        "https://www.proballers.com/basketball/player/47523/liang-cai"
+      ]
+    },
+    {
+      "china_nbl_player_key": "cba:28014",
+      "other_player_key": "proballers:274725",
+      "china_nbl_name": "袁振梁",
+      "other_name": "Yuan Zhenliang",
+      "confidence": "same_official_id_name_and_cba_team_season",
+      "birth_date": "1998-02-28",
+      "evidence": "Official NBL and CBA profiles share player ID 28014 and the Chinese name 袁振梁; the CBA 23-24 team 宁波町渥 matches the Proballers Ningbo Rockets player-season.",
+      "evidence_urls": [
+        "https://www.cba.net.cn/nblqyzhsj/index.jhtml?competitionId=58&seasonId=2094&playerId=28014",
+        "https://www.cba.net.cn/cbaqyzhsj/index.jhtml?competitionId=54&seasonId=1474&playerId=28014",
+        "https://www.proballers.com/basketball/player/274725/yuan-zhenliang"
+      ]
+    },
+    {
+      "china_nbl_player_key": "cba:179",
+      "other_player_key": "proballers:287791",
+      "china_nbl_name": "詹理为",
+      "other_name": "Zhan Liwei",
+      "confidence": "same_official_id_name_and_cba_team_season",
+      "birth_date": "2003-11-01",
+      "evidence": "Official NBL and CBA profiles share player ID 179 and the Chinese name 詹理为; the CBA 24-25 team 北京控股 matches the Proballers Beikong Royal Fighters player-season.",
+      "evidence_urls": [
+        "https://www.cba.net.cn/nblqyzhsj/index.jhtml?competitionId=58&seasonId=2094&playerId=179",
+        "https://www.cba.net.cn/cbaqyzhsj/index.jhtml?competitionId=54&seasonId=1758&playerId=179",
+        "https://www.proballers.com/basketball/player/287791/zhan-liwei"
+      ]
+    },
+    {
+      "china_nbl_player_key": "cba:114284",
+      "other_player_key": "proballers:64303",
+      "china_nbl_name": "赵天熠",
+      "other_name": "Tianyi Zhao",
+      "confidence": "same_official_id_name_and_cba_team_season",
+      "birth_date": "1995-04-06",
+      "evidence": "Official NBL and CBA profiles share player ID 114284 and the Chinese name 赵天熠; the CBA 21-22 team 南京同曦宙光 matches the Proballers Nanjing Monkey Kings player-season.",
+      "evidence_urls": [
+        "https://www.cba.net.cn/nblqyzhsj/index.jhtml?competitionId=58&seasonId=1643&playerId=114284",
+        "https://www.cba.net.cn/cbaqyzhsj/index.jhtml?competitionId=54&seasonId=869&playerId=114284",
+        "https://www.proballers.com/basketball/player/64303/tianyi-zhao"
+      ]
+    },
+    {
+      "china_nbl_player_key": "cba:6198",
+      "other_player_key": "proballers:72082",
+      "china_nbl_name": "赵戌宏",
+      "other_name": "Zhao Xuhong",
+      "confidence": "same_official_id_name_and_cba_team_season",
+      "birth_date": "1996-01-10",
+      "evidence": "Official NBL and CBA profiles share player ID 6198 and the Chinese name 赵戌宏; the CBA 23-24 team 广东华南虎 matches the Proballers Guangdong Southern Tigers player-season.",
+      "evidence_urls": [
+        "https://www.cba.net.cn/nblqyzhsj/index.jhtml?competitionId=58&seasonId=1928&playerId=6198",
+        "https://www.cba.net.cn/cbaqyzhsj/index.jhtml?competitionId=54&seasonId=1474&playerId=6198",
+        "https://www.proballers.com/basketball/player/72082/zhao-xuhong"
+      ]
+    },
+    {
+      "china_nbl_player_key": "cba:827",
+      "other_player_key": "proballers:206669",
+      "china_nbl_name": "赵锦洋",
+      "other_name": "Jinyang Zhao",
+      "confidence": "same_official_id_name_and_cba_team_season",
+      "birth_date": "2001-01-28",
+      "evidence": "Official NBL and CBA profiles share player ID 827 and the Chinese name 赵锦洋; the CBA 23-24 team 广东华南虎 matches the Proballers Guangdong Southern Tigers player-season.",
+      "evidence_urls": [
+        "https://www.cba.net.cn/nblqyzhsj/index.jhtml?competitionId=58&seasonId=2094&playerId=827",
+        "https://www.cba.net.cn/cbaqyzhsj/index.jhtml?competitionId=54&seasonId=1474&playerId=827",
+        "https://www.proballers.com/basketball/player/206669/jinyang-zhao"
+      ]
+    },
+    {
+      "china_nbl_player_key": "cba:11325",
+      "other_player_key": "proballers:277214",
+      "china_nbl_name": "邹昀轩",
+      "other_name": "Yunxuan Zou",
+      "confidence": "same_official_id_name_and_cba_team_season",
+      "birth_date": "2004-04-23",
+      "evidence": "Official NBL and CBA profiles share player ID 11325 and the Chinese name 邹昀轩; the CBA 23-24 team 山东高速 matches the Proballers Shandong player-season.",
+      "evidence_urls": [
+        "https://www.cba.net.cn/nblqyzhsj/index.jhtml?competitionId=58&seasonId=2094&playerId=11325",
+        "https://www.cba.net.cn/cbaqyzhsj/index.jhtml?competitionId=54&seasonId=1474&playerId=11325",
+        "https://www.proballers.com/basketball/player/277214/yunxuan-zou"
+      ]
+    },
+    {
+      "china_nbl_player_key": "cba:317",
+      "other_player_key": "proballers:294910",
+      "china_nbl_name": "邹运",
+      "other_name": "Zou Yun",
+      "confidence": "same_official_id_name_and_cba_team_season",
+      "birth_date": "2003-01-01",
+      "evidence": "Official NBL and CBA profiles share player ID 317 and the Chinese name 邹运; the CBA 24-25 team 广州朗肽海本 matches the Proballers Guangzhou Loong Lions player-season.",
+      "evidence_urls": [
+        "https://www.cba.net.cn/nblqyzhsj/index.jhtml?competitionId=58&seasonId=2094&playerId=317",
+        "https://www.cba.net.cn/cbaqyzhsj/index.jhtml?competitionId=54&seasonId=1758&playerId=317",
+        "https://www.proballers.com/basketball/player/294910/zou-yun"
+      ]
+    },
+    {
+      "china_nbl_player_key": "cba:97925",
+      "other_player_key": "proballers:56753",
+      "china_nbl_name": "郭晓鹏",
+      "other_name": "Xiaopeng Guo",
+      "confidence": "same_official_id_name_and_cba_team_season",
+      "birth_date": "1995-03-18",
+      "evidence": "Official NBL and CBA profiles share player ID 97925 and the Chinese name 郭晓鹏; the CBA 20-21 team 深圳马可波罗 matches the Proballers Shenzhen Aviators player-season.",
+      "evidence_urls": [
+        "https://www.cba.net.cn/nblqyzhsj/index.jhtml?competitionId=58&seasonId=2094&playerId=97925",
+        "https://www.cba.net.cn/cbaqyzhsj/index.jhtml?competitionId=54&seasonId=500&playerId=97925",
+        "https://www.proballers.com/basketball/player/56753/xiaopeng-guo"
+      ]
+    },
+    {
+      "china_nbl_player_key": "cba:14009",
+      "other_player_key": "proballers:294062",
+      "china_nbl_name": "陈冠岐",
+      "other_name": "Chen Guanqi",
+      "confidence": "same_official_id_name_and_cba_team_season",
+      "birth_date": "2004-06-24",
+      "evidence": "Official NBL and CBA profiles share player ID 14009 and the Chinese name 陈冠岐; the CBA 24-25 team 广州朗肽海本 matches the Proballers Guangzhou Loong Lions player-season.",
+      "evidence_urls": [
+        "https://www.cba.net.cn/nblqyzhsj/index.jhtml?competitionId=58&seasonId=2094&playerId=14009",
+        "https://www.cba.net.cn/cbaqyzhsj/index.jhtml?competitionId=54&seasonId=1758&playerId=14009",
+        "https://www.proballers.com/basketball/player/294062/chen-guanqi"
+      ]
+    },
+    {
+      "china_nbl_player_key": "cba:591",
+      "other_player_key": "proballers:277188",
+      "china_nbl_name": "陈玖璋",
+      "other_name": "Jiuzhang Chen",
+      "confidence": "same_official_id_name_and_cba_team_season",
+      "birth_date": "2001-04-18",
+      "evidence": "Official NBL and CBA profiles share player ID 591 and the Chinese name 陈玖璋; the CBA 23-24 team 山东高速 matches the Proballers Shandong player-season.",
+      "evidence_urls": [
+        "https://www.cba.net.cn/nblqyzhsj/index.jhtml?competitionId=58&seasonId=2094&playerId=591",
+        "https://www.cba.net.cn/cbaqyzhsj/index.jhtml?competitionId=54&seasonId=1474&playerId=591",
+        "https://www.proballers.com/basketball/player/277188/jiuzhang-chen"
+      ]
+    },
+    {
+      "china_nbl_player_key": "cba:107505",
+      "other_player_key": "proballers:61871",
+      "china_nbl_name": "陈金龙",
+      "other_name": "Chen Jinlong",
+      "confidence": "same_official_id_name_and_cba_team_season",
+      "birth_date": "1992-08-22",
+      "evidence": "Official NBL and CBA profiles share player ID 107505 and the Chinese name 陈金龙; the CBA 19-20 team 北京控股 matches the Proballers Beikong Royal Fighters player-season.",
+      "evidence_urls": [
+        "https://www.cba.net.cn/nblqyzhsj/index.jhtml?competitionId=58&seasonId=1342&playerId=107505",
+        "https://www.cba.net.cn/cbaqyzhsj/index.jhtml?competitionId=54&seasonId=267&playerId=107505",
+        "https://www.proballers.com/basketball/player/61871/chen-jinlong"
+      ]
+    },
+    {
+      "china_nbl_player_key": "cba:20620",
+      "other_player_key": "proballers:206609",
+      "china_nbl_name": "陶彦儒",
+      "other_name": "Tao Yanru",
+      "confidence": "same_official_id_name_and_cba_team_season",
+      "birth_date": "1999-06-13",
+      "evidence": "Official NBL and CBA profiles share player ID 20620 and the Chinese name 陶彦儒; the CBA 24-25 team 江苏肯帝亚 matches the Proballers Jiangsu Dragons player-season.",
+      "evidence_urls": [
+        "https://www.cba.net.cn/nblqyzhsj/index.jhtml?competitionId=58&seasonId=2094&playerId=20620",
+        "https://www.cba.net.cn/cbaqyzhsj/index.jhtml?competitionId=54&seasonId=1758&playerId=20620",
+        "https://www.proballers.com/basketball/player/206609/tao-yanru"
+      ]
+    },
+    {
+      "china_nbl_player_key": "cba:6350",
+      "other_player_key": "proballers:184993",
+      "china_nbl_name": "马光翰",
+      "other_name": "Guanghan Ma",
+      "confidence": "same_official_id_name_and_cba_team_season",
+      "birth_date": "1999-01-24",
+      "evidence": "Official NBL and CBA profiles share player ID 6350 and the Chinese name 马光翰; the CBA 19-20 team 山东西王 matches the Proballers Shandong player-season.",
+      "evidence_urls": [
+        "https://www.cba.net.cn/nblqyzhsj/index.jhtml?competitionId=58&seasonId=1342&playerId=6350",
+        "https://www.cba.net.cn/cbaqyzhsj/index.jhtml?competitionId=54&seasonId=267&playerId=6350",
+        "https://www.proballers.com/basketball/player/184993/guanghan-ma"
+      ]
+    },
+    {
+      "china_nbl_player_key": "cba:400392",
+      "other_player_key": "proballers:212273",
+      "china_nbl_name": "马国栋",
+      "other_name": "Guodong Ma",
+      "confidence": "same_official_id_name_and_cba_team_season",
+      "birth_date": "1998-09-18",
+      "evidence": "Official NBL and CBA profiles share player ID 400392 and the Chinese name 马国栋; the CBA 25-26 team 江苏肯帝亚 matches the Proballers Jiangsu Dragons player-season.",
+      "evidence_urls": [
+        "https://www.cba.net.cn/nblqyzhsj/index.jhtml?competitionId=58&seasonId=1928&playerId=400392",
+        "https://www.cba.net.cn/cbaqyzhsj/index.jhtml?competitionId=54&seasonId=2095&playerId=400392",
+        "https://www.proballers.com/basketball/player/212273/guodong-ma"
+      ]
+    },
+    {
+      "china_nbl_player_key": "cba:89720",
+      "other_player_key": "proballers:177598",
+      "china_nbl_name": "黄旭",
+      "other_name": "Huang Xu",
+      "confidence": "same_official_id_name_and_cba_team_season",
+      "birth_date": "1995-01-06",
+      "evidence": "Official NBL and CBA profiles share player ID 89720 and the Chinese name 黄旭; the CBA 20-21 team 上海久事 matches the Proballers Shanghai Sharks player-season.",
+      "evidence_urls": [
+        "https://www.cba.net.cn/nblqyzhsj/index.jhtml?competitionId=58&seasonId=2094&playerId=89720",
+        "https://www.cba.net.cn/cbaqyzhsj/index.jhtml?competitionId=54&seasonId=500&playerId=89720",
+        "https://www.proballers.com/basketball/player/177598/huang-xu"
+      ]
+    },
+    {
+      "china_nbl_player_key": "cba:306",
+      "other_player_key": "proballers:262609",
+      "china_nbl_name": "黄畅",
+      "other_name": "Huang Chang",
+      "confidence": "same_official_id_name_and_cba_team_season",
+      "birth_date": "2003-04-21",
+      "evidence": "Official NBL and CBA profiles share player ID 306 and the Chinese name 黄畅; the CBA 22-23 team 苏州肯帝亚 matches the Proballers Jiangsu Dragons player-season.",
+      "evidence_urls": [
+        "https://www.cba.net.cn/nblqyzhsj/index.jhtml?competitionId=58&seasonId=2094&playerId=306",
+        "https://www.cba.net.cn/cbaqyzhsj/index.jhtml?competitionId=54&seasonId=1103&playerId=306",
+        "https://www.proballers.com/basketball/player/262609/huang-chang"
+      ]
+    },
+    {
+      "china_nbl_player_key": "cba:6410",
+      "other_player_key": "proballers:245472",
+      "china_nbl_name": "黎璋霖",
+      "other_name": "Zhanglin Li",
+      "confidence": "same_official_id_name_and_cba_team_season",
+      "birth_date": "1997-07-29",
+      "evidence": "Official NBL and CBA profiles share player ID 6410 and the Chinese name 黎璋霖; the CBA 24-25 team 福建晋江文旅 matches the Proballers Fujian Sturgeons player-season.",
+      "evidence_urls": [
+        "https://www.cba.net.cn/nblqyzhsj/index.jhtml?competitionId=58&seasonId=1928&playerId=6410",
+        "https://www.cba.net.cn/cbaqyzhsj/index.jhtml?competitionId=54&seasonId=1758&playerId=6410",
+        "https://www.proballers.com/basketball/player/245472/zhanglin-li"
+      ]
+    }
+  ],
+  "unresolved": [
+    {
+      "china_nbl_player_key": "cba:438558",
+      "other_player_key": "nbl1:8ed9ce6c-cc4b-11ed-b1ba-0798dc51c8af",
+      "china_nbl_name": "乔丹·沃克",
+      "other_name": "Jordan Walker",
+      "reason": "Matching official English name, but same-person evidence is insufficient; not linked.",
+      "evidence_urls": [
+        "https://www.cba.net.cn/nblqyzhsj/index.jhtml?competitionId=58&seasonId=1643&playerId=438558",
+        "https://www.nbl1.com.au/stats-details/south"
+      ]
+    },
+    {
+      "china_nbl_player_key": "cba:438558",
+      "other_player_key": "proballers:191207",
+      "china_nbl_name": "乔丹·沃克",
+      "other_name": "Jordan Walker",
+      "reason": "Matching official English name, but same-person evidence is insufficient; not linked.",
+      "evidence_urls": [
+        "https://www.cba.net.cn/nblqyzhsj/index.jhtml?competitionId=58&seasonId=1643&playerId=438558",
+        "https://www.proballers.com/basketball/player/191207/jordan-walker"
+      ]
+    },
+    {
+      "china_nbl_player_key": "cba:8257",
+      "other_player_key": "proballers:206656",
+      "china_nbl_name": "于晓辉",
+      "other_name": "Xiaohui Yu",
+      "reason": "Exact-pinyin name candidate without a same-ID CBA team-season confirmation; not linked.",
+      "evidence_urls": [
+        "https://www.cba.net.cn/nblqyzhsj/index.jhtml?competitionId=58&seasonId=2094&playerId=8257",
+        "https://www.proballers.com/basketball/player/206656/xiaohui-yu"
+      ]
+    },
+    {
+      "china_nbl_player_key": "cba:9353",
+      "other_player_key": "proballers:245394",
+      "china_nbl_name": "冶征文",
+      "other_name": "Zhengwen Ye",
+      "reason": "Exact-pinyin name candidate without a same-ID CBA team-season confirmation; not linked.",
+      "evidence_urls": [
+        "https://www.cba.net.cn/nblqyzhsj/index.jhtml?competitionId=58&seasonId=1342&playerId=9353",
+        "https://www.proballers.com/basketball/player/245394/zhengwen-ye"
+      ]
+    },
+    {
+      "china_nbl_player_key": "cba:6539",
+      "other_player_key": "proballers:245455",
+      "china_nbl_name": "刘佳鑫",
+      "other_name": "Jiaxin Liu",
+      "reason": "Exact-pinyin name candidate without a same-ID CBA team-season confirmation; not linked.",
+      "evidence_urls": [
+        "https://www.cba.net.cn/nblqyzhsj/index.jhtml?competitionId=58&seasonId=2094&playerId=6539",
+        "https://www.proballers.com/basketball/player/245455/jiaxin-liu"
+      ]
+    },
+    {
+      "china_nbl_player_key": "cba:6539",
+      "other_player_key": "proballers:256644",
+      "china_nbl_name": "刘佳鑫",
+      "other_name": "Jiaxin Liu",
+      "reason": "Exact-pinyin name candidate without a same-ID CBA team-season confirmation; not linked.",
+      "evidence_urls": [
+        "https://www.cba.net.cn/nblqyzhsj/index.jhtml?competitionId=58&seasonId=2094&playerId=6539",
+        "https://www.proballers.com/basketball/player/256644/jiaxin-liu"
+      ]
+    },
+    {
+      "china_nbl_player_key": "cba:28012",
+      "other_player_key": "proballers:65423",
+      "china_nbl_name": "刘哲男",
+      "other_name": "Zhenan Liu",
+      "reason": "Exact-pinyin name candidate without a same-ID CBA team-season confirmation; not linked.",
+      "evidence_urls": [
+        "https://www.cba.net.cn/nblqyzhsj/index.jhtml?competitionId=58&seasonId=1093&playerId=28012",
+        "https://www.proballers.com/basketball/player/65423/zhenan-liu"
+      ]
+    },
+    {
+      "china_nbl_player_key": "cba:57671",
+      "other_player_key": "proballers:65408",
+      "china_nbl_name": "卢艺文",
+      "other_name": "Lu Yiwen",
+      "reason": "Exact-pinyin name candidate without a same-ID CBA team-season confirmation; not linked.",
+      "evidence_urls": [
+        "https://www.cba.net.cn/nblqyzhsj/index.jhtml?competitionId=58&seasonId=2094&playerId=57671",
+        "https://www.proballers.com/basketball/player/65408/lu-yiwen"
+      ]
+    },
+    {
+      "china_nbl_player_key": "cba:114696",
+      "other_player_key": "proballers:177268",
+      "china_nbl_name": "司坤",
+      "other_name": "Kun Si",
+      "reason": "Exact-pinyin name candidate without a same-ID CBA team-season confirmation; not linked.",
+      "evidence_urls": [
+        "https://www.cba.net.cn/nblqyzhsj/index.jhtml?competitionId=58&seasonId=2094&playerId=114696",
+        "https://www.proballers.com/basketball/player/177268/kun-si"
+      ]
+    },
+    {
+      "china_nbl_player_key": "cba:437229",
+      "other_player_key": "proballers:191609",
+      "china_nbl_name": "吉恩塔尔·西拉",
+      "other_name": "Jeantal Cylla",
+      "reason": "Matching official English name, but same-person evidence is insufficient; not linked.",
+      "evidence_urls": [
+        "https://www.cba.net.cn/nblqyzhsj/index.jhtml?competitionId=58&seasonId=1928&playerId=437229",
+        "https://www.proballers.com/basketball/player/191609/jeantal-cylla"
+      ]
+    },
+    {
+      "china_nbl_player_key": "cba:516634",
+      "other_player_key": "proballers:69496",
+      "china_nbl_name": "塔瓦里奥·米勒",
+      "other_name": "Tavario Miller",
+      "reason": "Matching official English name, but same-person evidence is insufficient; not linked.",
+      "evidence_urls": [
+        "https://www.cba.net.cn/nblqyzhsj/index.jhtml?competitionId=58&seasonId=2094&playerId=516634",
+        "https://www.proballers.com/basketball/player/69496/tavario-miller"
+      ]
+    },
+    {
+      "china_nbl_player_key": "cba:528698",
+      "other_player_key": "sportsref:sr-olisa-blaise-akonobi-1",
+      "china_nbl_name": "奥里萨·布莱斯·阿克诺比",
+      "other_name": "Olisa Blaise Akonobi",
+      "reason": "Matching official English name, but same-person evidence is insufficient; not linked.",
+      "evidence_urls": [
+        "https://www.cba.net.cn/nblqyzhsj/index.jhtml?competitionId=58&seasonId=2094&playerId=528698",
+        "https://www.sports-reference.com/cbb/players/olisa-blaise-akonobi-1.html"
+      ]
+    },
+    {
+      "china_nbl_player_key": "cba:15948",
+      "other_player_key": "proballers:256648",
+      "china_nbl_name": "孙巍",
+      "other_name": "Sun Wei",
+      "reason": "Exact-pinyin name candidate without a same-ID CBA team-season confirmation; not linked.",
+      "evidence_urls": [
+        "https://www.cba.net.cn/nblqyzhsj/index.jhtml?competitionId=58&seasonId=1342&playerId=15948",
+        "https://www.proballers.com/basketball/player/256648/sun-wei"
+      ]
+    },
+    {
+      "china_nbl_player_key": "cba:719",
+      "other_player_key": "proballers:256648",
+      "china_nbl_name": "孙巍",
+      "other_name": "Sun Wei",
+      "reason": "Exact-pinyin name candidate without a same-ID CBA team-season confirmation; not linked.",
+      "evidence_urls": [
+        "https://www.cba.net.cn/nblqyzhsj/index.jhtml?competitionId=58&seasonId=1643&playerId=719",
+        "https://www.proballers.com/basketball/player/256648/sun-wei"
+      ]
+    },
+    {
+      "china_nbl_player_key": "cba:6239",
+      "other_player_key": "proballers:66883",
+      "china_nbl_name": "孙旭",
+      "other_name": "Xu Sun",
+      "reason": "Exact-pinyin name candidate without a same-ID CBA team-season confirmation; not linked.",
+      "evidence_urls": [
+        "https://www.cba.net.cn/nblqyzhsj/index.jhtml?competitionId=58&seasonId=1342&playerId=6239",
+        "https://www.proballers.com/basketball/player/66883/xu-sun"
+      ]
+    },
+    {
+      "china_nbl_player_key": "cba:90402",
+      "other_player_key": "proballers:65401",
+      "china_nbl_name": "孙椿棚",
+      "other_name": "Peng Sun-Chun",
+      "reason": "Exact-pinyin name candidate without a same-ID CBA team-season confirmation; not linked.",
+      "evidence_urls": [
+        "https://www.cba.net.cn/nblqyzhsj/index.jhtml?competitionId=58&seasonId=2094&playerId=90402",
+        "https://www.proballers.com/basketball/player/65401/peng-sun-chun"
+      ]
+    },
+    {
+      "china_nbl_player_key": "cba:20612",
+      "other_player_key": "proballers:212309",
+      "china_nbl_name": "孙熔孝",
+      "other_name": "Rongxiao Sun",
+      "reason": "Exact-pinyin name candidate without a same-ID CBA team-season confirmation; not linked.",
+      "evidence_urls": [
+        "https://www.cba.net.cn/nblqyzhsj/index.jhtml?competitionId=58&seasonId=768&playerId=20612",
+        "https://www.proballers.com/basketball/player/212309/rongxiao-sun"
+      ]
+    },
+    {
+      "china_nbl_player_key": "cba:17506",
+      "other_player_key": "proballers:264248",
+      "china_nbl_name": "宋文浩",
+      "other_name": "Song Wen Hao",
+      "reason": "Exact-pinyin name candidate without a same-ID CBA team-season confirmation; not linked.",
+      "evidence_urls": [
+        "https://www.cba.net.cn/nblqyzhsj/index.jhtml?competitionId=58&seasonId=1928&playerId=17506",
+        "https://www.proballers.com/basketball/player/264248/song-wen-hao"
+      ]
+    },
+    {
+      "china_nbl_player_key": "cba:17506",
+      "other_player_key": "proballers:295010",
+      "china_nbl_name": "宋文浩",
+      "other_name": "Wenhao Song",
+      "reason": "Exact-pinyin name candidate without a same-ID CBA team-season confirmation; not linked.",
+      "evidence_urls": [
+        "https://www.cba.net.cn/nblqyzhsj/index.jhtml?competitionId=58&seasonId=1928&playerId=17506",
+        "https://www.proballers.com/basketball/player/295010/wenhao-song"
+      ]
+    },
+    {
+      "china_nbl_player_key": "cba:464721",
+      "other_player_key": "proballers:314667",
+      "china_nbl_name": "尼文-格洛弗",
+      "other_name": "Niven Antone Glover",
+      "reason": "Matching official English name, but same-person evidence is insufficient; not linked.",
+      "evidence_urls": [
+        "https://www.cba.net.cn/nblqyzhsj/index.jhtml?competitionId=58&seasonId=2094&playerId=464721",
+        "https://www.proballers.com/basketball/player/314667/niven-antone-glover"
+      ]
+    },
+    {
+      "china_nbl_player_key": "cba:501499",
+      "other_player_key": "proballers:51119",
+      "china_nbl_name": "布扬科夫.阿尔乔姆斯",
+      "other_name": "Artjoms Butjankovs",
+      "reason": "Matching official English name, but same-person evidence is insufficient; not linked.",
+      "evidence_urls": [
+        "https://www.cba.net.cn/nblqyzhsj/index.jhtml?competitionId=58&seasonId=2094&playerId=501499",
+        "https://www.proballers.com/basketball/player/51119/artjoms-butjankovs"
+      ]
+    },
+    {
+      "china_nbl_player_key": "cba:55211",
+      "other_player_key": "proballers:263229",
+      "china_nbl_name": "庄战",
+      "other_name": "Zhuang Zhan",
+      "reason": "Exact-pinyin name candidate without a same-ID CBA team-season confirmation; not linked.",
+      "evidence_urls": [
+        "https://www.cba.net.cn/nblqyzhsj/index.jhtml?competitionId=58&seasonId=2094&playerId=55211",
+        "https://www.proballers.com/basketball/player/263229/zhuang-zhan"
+      ]
+    },
+    {
+      "china_nbl_player_key": "cba:426450",
+      "other_player_key": "proballers:274630",
+      "china_nbl_name": "张俊豪",
+      "other_name": "Jun Hao Zhang",
+      "reason": "Exact-pinyin name candidate without a same-ID CBA team-season confirmation; not linked.",
+      "evidence_urls": [
+        "https://www.cba.net.cn/nblqyzhsj/index.jhtml?competitionId=58&seasonId=2094&playerId=426450",
+        "https://www.proballers.com/basketball/player/274630/jun-hao-zhang"
+      ]
+    },
+    {
+      "china_nbl_player_key": "cba:10758",
+      "other_player_key": "nbl1:9120cd31-0256-11f0-b125-4d29a613db95",
+      "china_nbl_name": "张志远",
+      "other_name": "Zhiyuan Zhang",
+      "reason": "Exact-pinyin name candidate without a same-ID CBA team-season confirmation; not linked.",
+      "evidence_urls": [
+        "https://www.cba.net.cn/nblqyzhsj/index.jhtml?competitionId=58&seasonId=768&playerId=10758",
+        "https://www.nbl1.com.au/stats-details/south"
+      ]
+    },
+    {
+      "china_nbl_player_key": "cba:25312",
+      "other_player_key": "proballers:206610",
+      "china_nbl_name": "张昊",
+      "other_name": "Hao Zhang",
+      "reason": "Exact-pinyin name candidate without a same-ID CBA team-season confirmation; not linked.",
+      "evidence_urls": [
+        "https://www.cba.net.cn/nblqyzhsj/index.jhtml?competitionId=58&seasonId=2094&playerId=25312",
+        "https://www.proballers.com/basketball/player/206610/hao-zhang"
+      ]
+    },
+    {
+      "china_nbl_player_key": "cba:27226",
+      "other_player_key": "proballers:68987",
+      "china_nbl_name": "张有为",
+      "other_name": "You Wei Zhang",
+      "reason": "Exact-pinyin name candidate without a same-ID CBA team-season confirmation; not linked.",
+      "evidence_urls": [
+        "https://www.cba.net.cn/nblqyzhsj/index.jhtml?competitionId=58&seasonId=768&playerId=27226",
+        "https://www.proballers.com/basketball/player/68987/you-wei-zhang"
+      ]
+    },
+    {
+      "china_nbl_player_key": "cba:114216",
+      "other_player_key": "proballers:72131",
+      "china_nbl_name": "张正昕",
+      "other_name": "Zhengxin Zhang",
+      "reason": "Exact-pinyin name candidate without a same-ID CBA team-season confirmation; not linked.",
+      "evidence_urls": [
+        "https://www.cba.net.cn/nblqyzhsj/index.jhtml?competitionId=58&seasonId=2094&playerId=114216",
+        "https://www.proballers.com/basketball/player/72131/zhengxin-zhang"
+      ]
+    },
+    {
+      "china_nbl_player_key": "cba:39758",
+      "other_player_key": "proballers:65420",
+      "china_nbl_name": "张铭浩",
+      "other_name": "MingHao Zhang",
+      "reason": "Exact-pinyin name candidate without a same-ID CBA team-season confirmation; not linked.",
+      "evidence_urls": [
+        "https://www.cba.net.cn/nblqyzhsj/index.jhtml?competitionId=58&seasonId=1093&playerId=39758",
+        "https://www.proballers.com/basketball/player/65420/minghao-zhang"
+      ]
+    },
+    {
+      "china_nbl_player_key": "cba:490181",
+      "other_player_key": "proballers:54634",
+      "china_nbl_name": "德扬别利奇",
+      "other_name": "Dejan Bjelic",
+      "reason": "Matching official English name, but same-person evidence is insufficient; not linked.",
+      "evidence_urls": [
+        "https://www.cba.net.cn/nblqyzhsj/index.jhtml?competitionId=58&seasonId=1928&playerId=490181",
+        "https://www.proballers.com/basketball/player/54634/dejan-bjelic"
+      ]
+    },
+    {
+      "china_nbl_player_key": "cba:498375",
+      "other_player_key": "proballers:189728",
+      "china_nbl_name": "德文特格林",
+      "other_name": "Devonte Green",
+      "reason": "Matching official English name, but same-person evidence is insufficient; not linked.",
+      "evidence_urls": [
+        "https://www.cba.net.cn/nblqyzhsj/index.jhtml?competitionId=58&seasonId=1928&playerId=498375",
+        "https://www.proballers.com/basketball/player/189728/devonte-green"
+      ]
+    },
+    {
+      "china_nbl_player_key": "cba:432682",
+      "other_player_key": "proballers:43572",
+      "china_nbl_name": "托米斯拉夫·祖布西奇",
+      "other_name": "Tomislav Zubcic",
+      "reason": "Matching official English name, but same-person evidence is insufficient; not linked.",
+      "evidence_urls": [
+        "https://www.cba.net.cn/nblqyzhsj/index.jhtml?competitionId=58&seasonId=1643&playerId=432682",
+        "https://www.proballers.com/basketball/player/43572/tomislav-zubcic"
+      ]
+    },
+    {
+      "china_nbl_player_key": "cba:487205",
+      "other_player_key": "proballers:11534",
+      "china_nbl_name": "拉多斯拉夫·佩科维奇",
+      "other_name": "Radoslav Pekovic",
+      "reason": "Matching official English name, but same-person evidence is insufficient; not linked.",
+      "evidence_urls": [
+        "https://www.cba.net.cn/nblqyzhsj/index.jhtml?competitionId=58&seasonId=2094&playerId=487205",
+        "https://www.proballers.com/basketball/player/11534/radoslav-pekovic"
+      ]
+    },
+    {
+      "china_nbl_player_key": "cba:5848",
+      "other_player_key": "proballers:54271",
+      "china_nbl_name": "明道加斯·库普萨斯",
+      "other_name": "Mindaugas Kupsas",
+      "reason": "Matching official English name, but same-person evidence is insufficient; not linked.",
+      "evidence_urls": [
+        "https://www.cba.net.cn/nblqyzhsj/index.jhtml?competitionId=58&seasonId=1643&playerId=5848",
+        "https://www.proballers.com/basketball/player/54271/mindaugas-kupsas"
+      ]
+    },
+    {
+      "china_nbl_player_key": "cba:823",
+      "other_player_key": "proballers:175009",
+      "china_nbl_name": "曲虹霖",
+      "other_name": "Honglin Qu",
+      "reason": "Exact-pinyin name candidate without a same-ID CBA team-season confirmation; not linked.",
+      "evidence_urls": [
+        "https://www.cba.net.cn/nblqyzhsj/index.jhtml?competitionId=58&seasonId=2094&playerId=823",
+        "https://www.proballers.com/basketball/player/175009/honglin-qu"
+      ]
+    },
+    {
+      "china_nbl_player_key": "cba:437164",
+      "other_player_key": "proballers:70804",
+      "china_nbl_name": "朱尔·帕尼尼奇",
+      "other_name": "Jure Planinic",
+      "reason": "Matching official English name, but same-person evidence is insufficient; not linked.",
+      "evidence_urls": [
+        "https://www.cba.net.cn/nblqyzhsj/index.jhtml?competitionId=58&seasonId=1643&playerId=437164",
+        "https://www.proballers.com/basketball/player/70804/jure-planinic"
+      ]
+    },
+    {
+      "china_nbl_player_key": "cba:25698",
+      "other_player_key": "proballers:206677",
+      "china_nbl_name": "朱肇旌",
+      "other_name": "Zhaojing Zhu",
+      "reason": "Exact-pinyin name candidate without a same-ID CBA team-season confirmation; not linked.",
+      "evidence_urls": [
+        "https://www.cba.net.cn/nblqyzhsj/index.jhtml?competitionId=58&seasonId=1093&playerId=25698",
+        "https://www.proballers.com/basketball/player/206677/zhaojing-zhu"
+      ]
+    },
+    {
+      "china_nbl_player_key": "cba:688",
+      "other_player_key": "proballers:179488",
+      "china_nbl_name": "李佳恒",
+      "other_name": "Jiaheng Li",
+      "reason": "Exact-pinyin name candidate without a same-ID CBA team-season confirmation; not linked.",
+      "evidence_urls": [
+        "https://www.cba.net.cn/nblqyzhsj/index.jhtml?competitionId=58&seasonId=2094&playerId=688",
+        "https://www.proballers.com/basketball/player/179488/jiaheng-li"
+      ]
+    },
+    {
+      "china_nbl_player_key": "cba:12516",
+      "other_player_key": "proballers:294061",
+      "china_nbl_name": "李健豪",
+      "other_name": "Li Jianhao",
+      "reason": "Exact-pinyin name candidate without a same-ID CBA team-season confirmation; not linked.",
+      "evidence_urls": [
+        "https://www.cba.net.cn/nblqyzhsj/index.jhtml?competitionId=58&seasonId=2094&playerId=12516",
+        "https://www.proballers.com/basketball/player/294061/li-jianhao"
+      ]
+    },
+    {
+      "china_nbl_player_key": "cba:9289",
+      "other_player_key": "proballers:206661",
+      "china_nbl_name": "李林风",
+      "other_name": "Linfeng Li",
+      "reason": "Exact-pinyin name candidate without a same-ID CBA team-season confirmation; not linked.",
+      "evidence_urls": [
+        "https://www.cba.net.cn/nblqyzhsj/index.jhtml?competitionId=58&seasonId=2094&playerId=9289",
+        "https://www.proballers.com/basketball/player/206661/linfeng-li"
+      ]
+    },
+    {
+      "china_nbl_player_key": "cba:9289",
+      "other_player_key": "proballers:212555",
+      "china_nbl_name": "李林风",
+      "other_name": "Linfeng Li",
+      "reason": "Exact-pinyin name candidate without a same-ID CBA team-season confirmation; not linked.",
+      "evidence_urls": [
+        "https://www.cba.net.cn/nblqyzhsj/index.jhtml?competitionId=58&seasonId=2094&playerId=9289",
+        "https://www.proballers.com/basketball/player/212555/linfeng-li"
+      ]
+    },
+    {
+      "china_nbl_player_key": "cba:12060",
+      "other_player_key": "proballers:47524",
+      "china_nbl_name": "杨铭",
+      "other_name": "Ming Yang",
+      "reason": "Exact-pinyin name candidate without a same-ID CBA team-season confirmation; not linked.",
+      "evidence_urls": [
+        "https://www.cba.net.cn/nblqyzhsj/index.jhtml?competitionId=58&seasonId=2094&playerId=12060",
+        "https://www.proballers.com/basketball/player/47524/ming-yang"
+      ]
+    },
+    {
+      "china_nbl_player_key": "cba:529328",
+      "other_player_key": "proballers:75975",
+      "china_nbl_name": "杰伦亚当斯",
+      "other_name": "Jaylen Adams",
+      "reason": "Matching official English name, but same-person evidence is insufficient; not linked.",
+      "evidence_urls": [
+        "https://www.cba.net.cn/nblqyzhsj/index.jhtml?competitionId=58&seasonId=2094&playerId=529328",
+        "https://www.proballers.com/basketball/player/75975/jaylen-adams"
+      ]
+    },
+    {
+      "china_nbl_player_key": "cba:487433",
+      "other_player_key": "proballers:75843",
+      "china_nbl_name": "格里 布莱克斯",
+      "other_name": "Gerry Blakes",
+      "reason": "Matching official English name, but same-person evidence is insufficient; not linked.",
+      "evidence_urls": [
+        "https://www.cba.net.cn/nblqyzhsj/index.jhtml?competitionId=58&seasonId=1928&playerId=487433",
+        "https://www.proballers.com/basketball/player/75843/gerry-blakes"
+      ]
+    },
+    {
+      "china_nbl_player_key": "cba:6209",
+      "other_player_key": "proballers:206654",
+      "china_nbl_name": "梁英淇",
+      "other_name": "Yingqi Liang",
+      "reason": "Exact-pinyin name candidate without a same-ID CBA team-season confirmation; not linked.",
+      "evidence_urls": [
+        "https://www.cba.net.cn/nblqyzhsj/index.jhtml?competitionId=58&seasonId=1928&playerId=6209",
+        "https://www.proballers.com/basketball/player/206654/yingqi-liang"
+      ]
+    },
+    {
+      "china_nbl_player_key": "cba:20072",
+      "other_player_key": "proballers:61980",
+      "china_nbl_name": "江凯",
+      "other_name": "Kai Jiang",
+      "reason": "Exact-pinyin name candidate without a same-ID CBA team-season confirmation; not linked.",
+      "evidence_urls": [
+        "https://www.cba.net.cn/nblqyzhsj/index.jhtml?competitionId=58&seasonId=1342&playerId=20072",
+        "https://www.proballers.com/basketball/player/61980/kai-jiang"
+      ]
+    },
+    {
+      "china_nbl_player_key": "cba:6208",
+      "other_player_key": "proballers:274632",
+      "china_nbl_name": "满奕呈",
+      "other_name": "Man Yi Cheng",
+      "reason": "Exact-pinyin name candidate without a same-ID CBA team-season confirmation; not linked.",
+      "evidence_urls": [
+        "https://www.cba.net.cn/nblqyzhsj/index.jhtml?competitionId=58&seasonId=2094&playerId=6208",
+        "https://www.proballers.com/basketball/player/274632/man-yi-cheng"
+      ]
+    },
+    {
+      "china_nbl_player_key": "cba:54644",
+      "other_player_key": "proballers:212199",
+      "china_nbl_name": "王浩宇",
+      "other_name": "Haoyu Wang",
+      "reason": "Exact-pinyin name candidate without a same-ID CBA team-season confirmation; not linked.",
+      "evidence_urls": [
+        "https://www.cba.net.cn/nblqyzhsj/index.jhtml?competitionId=58&seasonId=1342&playerId=54644",
+        "https://www.proballers.com/basketball/player/212199/haoyu-wang"
+      ]
+    },
+    {
+      "china_nbl_player_key": "cba:9292",
+      "other_player_key": "proballers:212199",
+      "china_nbl_name": "王浩宇",
+      "other_name": "Haoyu Wang",
+      "reason": "Exact-pinyin name candidate without a same-ID CBA team-season confirmation; not linked.",
+      "evidence_urls": [
+        "https://www.cba.net.cn/nblqyzhsj/index.jhtml?competitionId=58&seasonId=1342&playerId=9292",
+        "https://www.proballers.com/basketball/player/212199/haoyu-wang"
+      ]
+    },
+    {
+      "china_nbl_player_key": "cba:54750",
+      "other_player_key": "proballers:245391",
+      "china_nbl_name": "王炫",
+      "other_name": "Xuan Wang",
+      "reason": "Exact-pinyin name candidate without a same-ID CBA team-season confirmation; not linked.",
+      "evidence_urls": [
+        "https://www.cba.net.cn/nblqyzhsj/index.jhtml?competitionId=58&seasonId=2094&playerId=54750",
+        "https://www.proballers.com/basketball/player/245391/xuan-wang"
+      ]
+    },
+    {
+      "china_nbl_player_key": "cba:112677",
+      "other_player_key": "proballers:66523",
+      "china_nbl_name": "王翊雄",
+      "other_name": "Yixiong Wang",
+      "reason": "Exact-pinyin name candidate without a same-ID CBA team-season confirmation; not linked.",
+      "evidence_urls": [
+        "https://www.cba.net.cn/nblqyzhsj/index.jhtml?competitionId=58&seasonId=2094&playerId=112677",
+        "https://www.proballers.com/basketball/player/66523/yixiong-wang"
+      ]
+    },
+    {
+      "china_nbl_player_key": "cba:790",
+      "other_player_key": "proballers:212425",
+      "china_nbl_name": "田泽皓",
+      "other_name": "Zehao Tian",
+      "reason": "Exact-pinyin name candidate without a same-ID CBA team-season confirmation; not linked.",
+      "evidence_urls": [
+        "https://www.cba.net.cn/nblqyzhsj/index.jhtml?competitionId=58&seasonId=1342&playerId=790",
+        "https://www.proballers.com/basketball/player/212425/zehao-tian"
+      ]
+    },
+    {
+      "china_nbl_player_key": "cba:7771",
+      "other_player_key": "proballers:251407",
+      "china_nbl_name": "皇甫承轩",
+      "other_name": "Chengxuan Huangfu",
+      "reason": "Exact-pinyin name candidate without a same-ID CBA team-season confirmation; not linked.",
+      "evidence_urls": [
+        "https://www.cba.net.cn/nblqyzhsj/index.jhtml?competitionId=58&seasonId=1342&playerId=7771",
+        "https://www.proballers.com/basketball/player/251407/chengxuan-huangfu"
+      ]
+    },
+    {
+      "china_nbl_player_key": "cba:436753",
+      "other_player_key": "proballers:61945",
+      "china_nbl_name": "艾瑞克·巴克纳",
+      "other_name": "Eric Buckner",
+      "reason": "Matching official English name, but same-person evidence is insufficient; not linked.",
+      "evidence_urls": [
+        "https://www.cba.net.cn/nblqyzhsj/index.jhtml?competitionId=58&seasonId=1643&playerId=436753",
+        "https://www.proballers.com/basketball/player/61945/eric-buckner"
+      ]
+    },
+    {
+      "china_nbl_player_key": "cba:92613",
+      "other_player_key": "proballers:246661",
+      "china_nbl_name": "芦一鸣",
+      "other_name": "Yiming Lu",
+      "reason": "Exact-pinyin name candidate without a same-ID CBA team-season confirmation; not linked.",
+      "evidence_urls": [
+        "https://www.cba.net.cn/nblqyzhsj/index.jhtml?competitionId=58&seasonId=2094&playerId=92613",
+        "https://www.proballers.com/basketball/player/246661/yiming-lu"
+      ]
+    },
+    {
+      "china_nbl_player_key": "cba:696",
+      "other_player_key": "proballers:245471",
+      "china_nbl_name": "薛驰",
+      "other_name": "Chi Xue",
+      "reason": "Exact-pinyin name candidate without a same-ID CBA team-season confirmation; not linked.",
+      "evidence_urls": [
+        "https://www.cba.net.cn/nblqyzhsj/index.jhtml?competitionId=58&seasonId=1342&playerId=696",
+        "https://www.proballers.com/basketball/player/245471/chi-xue"
+      ]
+    },
+    {
+      "china_nbl_player_key": "cba:7650",
+      "other_player_key": "proballers:287786",
+      "china_nbl_name": "袁帅",
+      "other_name": "Yuan Shuai",
+      "reason": "Exact-pinyin name candidate without a same-ID CBA team-season confirmation; not linked.",
+      "evidence_urls": [
+        "https://www.cba.net.cn/nblqyzhsj/index.jhtml?competitionId=58&seasonId=1928&playerId=7650",
+        "https://www.proballers.com/basketball/player/287786/yuan-shuai"
+      ]
+    },
+    {
+      "china_nbl_player_key": "cba:48771",
+      "other_player_key": "proballers:245405",
+      "china_nbl_name": "许钟豪",
+      "other_name": "Zhonghao Xu",
+      "reason": "Exact-pinyin name candidate without a same-ID CBA team-season confirmation; not linked.",
+      "evidence_urls": [
+        "https://www.cba.net.cn/nblqyzhsj/index.jhtml?competitionId=58&seasonId=2094&playerId=48771",
+        "https://www.proballers.com/basketball/player/245405/zhonghao-xu"
+      ]
+    },
+    {
+      "china_nbl_player_key": "cba:48771",
+      "other_player_key": "proballers:283322",
+      "china_nbl_name": "许钟豪",
+      "other_name": "Zhonghao Xu",
+      "reason": "Exact-pinyin name candidate without a same-ID CBA team-season confirmation; not linked.",
+      "evidence_urls": [
+        "https://www.cba.net.cn/nblqyzhsj/index.jhtml?competitionId=58&seasonId=2094&playerId=48771",
+        "https://www.proballers.com/basketball/player/283322/zhonghao-xu"
+      ]
+    },
+    {
+      "china_nbl_player_key": "cba:395676",
+      "other_player_key": "proballers:186206",
+      "china_nbl_name": "谢尔顿·麦克",
+      "other_name": "Sheldon Mac",
+      "reason": "Matching official English name, but same-person evidence is insufficient; not linked.",
+      "evidence_urls": [
+        "https://www.cba.net.cn/nblqyzhsj/index.jhtml?competitionId=58&seasonId=1342&playerId=395676",
+        "https://www.proballers.com/basketball/player/186206/sheldon-mac"
+      ]
+    },
+    {
+      "china_nbl_player_key": "cba:435676",
+      "other_player_key": "proballers:174258",
+      "china_nbl_name": "贾斯汀·艾尔斯顿",
+      "other_name": "Justin Alston",
+      "reason": "Matching official English name, but same-person evidence is insufficient; not linked.",
+      "evidence_urls": [
+        "https://www.cba.net.cn/nblqyzhsj/index.jhtml?competitionId=58&seasonId=1643&playerId=435676",
+        "https://www.proballers.com/basketball/player/174258/justin-alston"
+      ]
+    },
+    {
+      "china_nbl_player_key": "cba:6369",
+      "other_player_key": "proballers:70078",
+      "china_nbl_name": "贾昊",
+      "other_name": "Hao Jia",
+      "reason": "Exact-pinyin name candidate without a same-ID CBA team-season confirmation; not linked.",
+      "evidence_urls": [
+        "https://www.cba.net.cn/nblqyzhsj/index.jhtml?competitionId=58&seasonId=768&playerId=6369",
+        "https://www.proballers.com/basketball/player/70078/hao-jia"
+      ]
+    },
+    {
+      "china_nbl_player_key": "cba:39772",
+      "other_player_key": "proballers:212307",
+      "china_nbl_name": "赵建树",
+      "other_name": "Jianshu Zhao",
+      "reason": "Exact-pinyin name candidate without a same-ID CBA team-season confirmation; not linked.",
+      "evidence_urls": [
+        "https://www.cba.net.cn/nblqyzhsj/index.jhtml?competitionId=58&seasonId=768&playerId=39772",
+        "https://www.proballers.com/basketball/player/212307/jianshu-zhao"
+      ]
+    },
+    {
+      "china_nbl_player_key": "cba:45763",
+      "other_player_key": "proballers:8034",
+      "china_nbl_name": "赵泰隆",
+      "other_name": "Tailong Zhao",
+      "reason": "Exact-pinyin name candidate without a same-ID CBA team-season confirmation; not linked.",
+      "evidence_urls": [
+        "https://www.cba.net.cn/nblqyzhsj/index.jhtml?competitionId=58&seasonId=1643&playerId=45763",
+        "https://www.proballers.com/basketball/player/8034/tailong-zhao"
+      ]
+    },
+    {
+      "china_nbl_player_key": "cba:441462",
+      "other_player_key": "proballers:48050",
+      "china_nbl_name": "达科·普拉尼尼克",
+      "other_name": "Darko Planinic",
+      "reason": "Matching official English name, but same-person evidence is insufficient; not linked.",
+      "evidence_urls": [
+        "https://www.cba.net.cn/nblqyzhsj/index.jhtml?competitionId=58&seasonId=1643&playerId=441462",
+        "https://www.proballers.com/basketball/player/48050/darko-planinic"
+      ]
+    },
+    {
+      "china_nbl_player_key": "cba:54599",
+      "other_player_key": "proballers:206607",
+      "china_nbl_name": "郑祺龙",
+      "other_name": "Zheng Qilong",
+      "reason": "Exact-pinyin name candidate without a same-ID CBA team-season confirmation; not linked.",
+      "evidence_urls": [
+        "https://www.cba.net.cn/nblqyzhsj/index.jhtml?competitionId=58&seasonId=1643&playerId=54599",
+        "https://www.proballers.com/basketball/player/206607/zheng-qilong"
+      ]
+    },
+    {
+      "china_nbl_player_key": "cba:115023",
+      "other_player_key": "proballers:65412",
+      "china_nbl_name": "郭一飞",
+      "other_name": "Guo Yifei",
+      "reason": "Exact-pinyin name candidate without a same-ID CBA team-season confirmation; not linked.",
+      "evidence_urls": [
+        "https://www.cba.net.cn/nblqyzhsj/index.jhtml?competitionId=58&seasonId=1342&playerId=115023",
+        "https://www.proballers.com/basketball/player/65412/guo-yifei"
+      ]
+    },
+    {
+      "china_nbl_player_key": "cba:25150",
+      "other_player_key": "proballers:310723",
+      "china_nbl_name": "郭凯伦",
+      "other_name": "Kailun Guo",
+      "reason": "Exact-pinyin name candidate without a same-ID CBA team-season confirmation; not linked.",
+      "evidence_urls": [
+        "https://www.cba.net.cn/nblqyzhsj/index.jhtml?competitionId=58&seasonId=2094&playerId=25150",
+        "https://www.proballers.com/basketball/player/310723/kailun-guo"
+      ]
+    },
+    {
+      "china_nbl_player_key": "cba:6274",
+      "other_player_key": "proballers:206721",
+      "china_nbl_name": "郭羽舟",
+      "other_name": "Yuzhou Guo",
+      "reason": "Exact-pinyin name candidate without a same-ID CBA team-season confirmation; not linked.",
+      "evidence_urls": [
+        "https://www.cba.net.cn/nblqyzhsj/index.jhtml?competitionId=58&seasonId=1928&playerId=6274",
+        "https://www.proballers.com/basketball/player/206721/yuzhou-guo"
+      ]
+    },
+    {
+      "china_nbl_player_key": "cba:437553",
+      "other_player_key": "proballers:47592",
+      "china_nbl_name": "阿格拉瓦尼斯",
+      "other_name": "Dimitrios Agravanis",
+      "reason": "Matching official English name, but same-person evidence is insufficient; not linked.",
+      "evidence_urls": [
+        "https://www.cba.net.cn/nblqyzhsj/index.jhtml?competitionId=58&seasonId=2094&playerId=437553",
+        "https://www.proballers.com/basketball/player/47592/dimitrios-agravanis"
+      ]
+    },
+    {
+      "china_nbl_player_key": "cba:394901",
+      "other_player_key": "proballers:233194",
+      "china_nbl_name": "马库尔-梅克",
+      "other_name": "Makur Maker",
+      "reason": "Matching official English name, but same-person evidence is insufficient; not linked.",
+      "evidence_urls": [
+        "https://www.cba.net.cn/nblqyzhsj/index.jhtml?competitionId=58&seasonId=1342&playerId=394901",
+        "https://www.proballers.com/basketball/player/233194/makur-maker"
+      ]
+    },
+    {
+      "china_nbl_player_key": "cba:851",
+      "other_player_key": "proballers:245395",
+      "china_nbl_name": "马泽来",
+      "other_name": "Zelai Ma",
+      "reason": "Exact-pinyin name candidate without a same-ID CBA team-season confirmation; not linked.",
+      "evidence_urls": [
+        "https://www.cba.net.cn/nblqyzhsj/index.jhtml?competitionId=58&seasonId=2094&playerId=851",
+        "https://www.proballers.com/basketball/player/245395/zelai-ma"
+      ]
+    },
+    {
+      "china_nbl_player_key": "cba:434898",
+      "other_player_key": "proballers:206612",
+      "china_nbl_name": "黄译",
+      "other_name": "Huang Yi",
+      "reason": "Exact-pinyin name candidate without a same-ID CBA team-season confirmation; not linked.",
+      "evidence_urls": [
+        "https://www.cba.net.cn/nblqyzhsj/index.jhtml?competitionId=58&seasonId=1643&playerId=434898",
+        "https://www.proballers.com/basketball/player/206612/huang-yi"
+      ]
+    }
+  ]
+}
